@@ -11,24 +11,6 @@ html, body, #cesiumContainer {
 	visibility:hidden;
 }
 
-.cesium-viewer-toolbar {
-	top:6px;
-	right:52px;
-}
-
-.cesium-toolbar-button {
-	width:36px;
-	height:36px;
-}
-
-.cesium-baseLayerPicker-dropDown {
-	right:-44px;
-}
-
-.cesium-baseLayerPicker-dropDown-visible {
-	right:-44px;
-}
-
 .cesium-infoBox-iframe {
 	width:320px;
 	overflow:hidden;
@@ -61,8 +43,6 @@ html, body, #cesiumContainer {
 .cesium-infoBox-title {
 	padding:5px 24px;
 	overflow:hidden;
-	color:#000;
-	background-color:rgba(255,255,255,0.5);
 }
 
 .cesium-widget-credits {
@@ -70,14 +50,9 @@ html, body, #cesiumContainer {
 }
 
 .cesium-button {
-    color: rgb(180, 180, 180);
-    fill: rgb(180, 180, 180);
     cursor: pointer;
 }
 
-button.cesium-infoBox-close {
-	color:#aaa;
-}
 .cesium-selection-wrapper svg {
     fill: #FFF;
     stroke: #FFF;
