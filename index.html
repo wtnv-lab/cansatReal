@@ -82,7 +82,8 @@
         </ul>
     </div>
     <script>
-        //端末種別と画面サイズ
+
+//端末種別と画面サイズ
 
 var mobile = 0;
 var smallScreen = 0;
@@ -139,23 +140,7 @@ function viewPoints(_label, _lat, _lng, _heading, _pitch, _range) {
 }
 
 var viewPointsArray=[];
-viewPointsArray[0]=new viewPoints("原爆ドーム",34.39548333333333,132.4535916666667,0,-60,200);
-viewPointsArray[1]=new viewPoints("平和公園",34.3927249,132.4524912,0,-60,600);
-viewPointsArray[2]=new viewPoints("爆心地",34.39478216914307,132.4547065677773,0,-60,150);
-viewPointsArray[3]=new viewPoints("相生橋",34.3964696,132.4527501,0,-60,150);
-viewPointsArray[4]=new viewPoints("広島女学院",34.398160,132.466252,0,-60,800);
-viewPointsArray[5]=new viewPoints("紙屋町",34.3953145,132.4577804,0,-60,150);
-viewPointsArray[6]=new viewPoints("元安橋",34.3940449,132.4538838,0,-60,100);
-viewPointsArray[7]=new viewPoints("八丁堀",34.393372,132.46516599999995,0,-60,500);
-viewPointsArray[8]=new viewPoints("下村時計店",34.3925,132.46145,0,-60,150);
-viewPointsArray[9]=new viewPoints("広島城",34.402176,132.459561,0,-60,600);
-viewPointsArray[10]=new viewPoints("10000m上空",34.394915,132.45470999999998,0,-85,10000);
-viewPointsArray[11]=new viewPoints("全証言",35.223815,134.086880,0,-60,600000);
-if (mobile == 0){
-	viewPointsArray[12]=new viewPoints("初期位置",34.394915,132.45470999999998,0,-15,3000);
-} else {
-	viewPointsArray[12]=new viewPoints("初期位置",34.394915,132.45470999999998,0,-60,5000);	
-}
+viewPointsArray[0]=new viewPoints("地球",35.87501683, 135.8878458, 0, -89, 20000000);
 
 //視点メニュー作成
 
@@ -166,7 +151,7 @@ for (var i=0; i<viewPointsArray.length; i++) {
 	dropDownList = dropDownList + '<li><a href="#" onclick = "changeViewPoint(' + i + ',' + '3.0);return false;">' + viewPointsArray[i].label + '</a></li>';
 }
 
-var viewPointChangeMenuHtml = '<ul class="viewpoint">' + dropDownList + '<hr noshade/><li><a href="http://n.mapping.jp/">ナガサキ</a></li><li><a href="http://okinawa.mapping.jp/">オキナワ</a></li><li><a href="http://1964.mapping.jp/">東京五輪</a></li><li><a href="http://shinsai.mapping.jp/">震災</a></li><li><a href="http://iwate.mapping.jp/">津波犠牲者</a></li></ul>';
+var viewPointChangeMenuHtml = '<ul class="viewpoint">' + dropDownList + '</li></ul>';
 viewPointChangeMenu.innerHTML = viewPointChangeMenuHtml;
 
 
@@ -227,23 +212,23 @@ fog.screenSpaceErrorFactor = 100.0;
 
 //起動シークエンス
 
+fadeInOut(blackOutDiv,1);
+setTimeout('fadeInOut(blackOutDiv,0)',2500);
+
 $(function() {
 	$('.cesium-widget-credits').css('display', 'none');
 });
 
-fadeInOut(blackOutDiv,0);
+//初期視点
 
-setTimeout('groundZero()',1000);
+viewer.camera.flyTo({
+  destination : Cesium.Cartesian3.fromDegrees(139.7621541,35.7143536,1000),
+  duration : 0,
+});
 
-function groundZero(){
-	changeViewPoint(10,3);
-	setTimeout('landing()',4000);
-}
-
-function landing(){
-	changeViewPoint(12,3);
-	setTimeout('loadCzml()',3000);
-}
+setTimeout('changeViewPoint(0,4)',3000);
+setTimeout('fadeInOut(blackOutDiv,1)',7000);
+setTimeout('loadCzml()',7000);
 
 //CZMLロード
 
@@ -259,9 +244,29 @@ function loadCzml(){
 		i++;
 		if (i == czmlDataArray.length){
 			clearInterval(load);
-            fadeInOut(blackOutDiv,0);
+            setTimeout('fadeInOut(blackOutDiv,0)',1000);
+            setTimeout('timeSet()',1000);
 		}
 	}, 0);
+}
+
+//時間設定
+
+var endISO = '2016-03-01T23:55:00Z';
+var startISO = '2016-03-01T00:00:00Z';
+
+function timeSet(){
+	clock = new Cesium.Clock({
+		startTime : Cesium.JulianDate.fromIso8601(startISO),
+		currentTime : Cesium.JulianDate.fromIso8601(startISO),
+		stopTime : Cesium.JulianDate.fromIso8601(endISO),
+		clockRange : Cesium.ClockRange.LOOP_STOP
+	});
+	viewer.clock.startTime = clock.startTime;
+	viewer.clock.stopTime = clock.stopTime;
+	viewer.clock.currentTime = clock.currentTime;
+	viewer.clock.multiplier = 10 * 20;
+	viewer.timeline.zoomTo(viewer.clock.startTime, viewer.clock.stopTime);
 }
 
 //視点移動
