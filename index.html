@@ -164,20 +164,7 @@ function czmlData(_label, _url) {
 
 var czmlDataArray=[];
 
-czmlDataArray[0]=new czmlData("01",'data/czml/position01.czml');
-czmlDataArray[1]=new czmlData("02",'data/czml/position02.czml');
-czmlDataArray[2]=new czmlData("03",'data/czml/position03.czml');
-czmlDataArray[3]=new czmlData("04",'data/czml/position04.czml');
-czmlDataArray[4]=new czmlData("05",'data/czml/position05.czml');
-czmlDataArray[5]=new czmlData("06",'data/czml/position06.czml');
-czmlDataArray[6]=new czmlData("07",'data/czml/position07.czml');
-czmlDataArray[7]=new czmlData("08",'data/czml/position08.czml');
-czmlDataArray[8]=new czmlData("09",'data/czml/position09.czml');
-czmlDataArray[9]=new czmlData("10",'data/czml/position10.czml');
-czmlDataArray[10]=new czmlData("11",'data/czml/position11.czml');
-czmlDataArray[11]=new czmlData("12",'data/czml/position12.czml');
-czmlDataArray[12]=new czmlData("13",'data/czml/position13.czml');
-czmlDataArray[13]=new czmlData("14",'data/czml/position14.czml');
+czmlDataArray[0]=new czmlData("satellite",'data/czml/satellite.czml');
 
 //ビューア初期化	
 
@@ -325,7 +312,7 @@ function geocode() {
 function flyToMyLocation() {
 	function fly(position) {
 		viewer.camera.flyTo({
-			destination : Cesium.Cartesian3.fromDegrees(position.coords.longitude, position.coords.latitude, 750.0),
+			destination : Cesium.Cartesian3.fromDegrees(position.coords.longitude, position.coords.latitude, 7500000),
 			easingFunction: Cesium.EasingFunction.CUBIC_IN_OUT
 		});
 	}

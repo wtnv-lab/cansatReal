@@ -118,19 +118,19 @@ button.cesium-infoBox-close {
 }
 #buttonGeo {
 	position:absolute;
-	bottom:8px;
+	bottom:34px;
 	left:50%;
 	margin-left:-20px;
 	opacity:0.9;
 }
 
 .sharebutton {
-	position:absolute;
-	text-align:right;
-	bottom:-16px;
-	right:34px;
-	width:130px;
-	z-index:2;
+    position: absolute;
+    text-align: right;
+    bottom: 12px;
+    right: 8px;
+    width: 130px;
+    z-index: 2;
 }
 .share
 {
