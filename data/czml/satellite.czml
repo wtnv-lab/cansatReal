@@ -2928,7 +2928,7 @@
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/10.png",
-            "scale": 0.4,
+            "scale": 0.45,
             "show": "true"
         },
         "position": {
@@ -3252,7 +3252,7 @@
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/11.png",
-            "scale": 0.4,
+            "scale": 0.45,
             "show": "true"
         },
         "position": {
