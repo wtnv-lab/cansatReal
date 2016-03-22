@@ -53,14 +53,9 @@
             <span class="icon-font">help</span>
         </div>
     </div>
-    <div id="button3" class="general-button">
-        <div class="button-content">
-            <span class="icon-font">paramater</span>
-        </div>
-    </div>
     <div id="buttonGeo" class="general-button" onclick="flyToMyLocation();">
         <div class="button-content">
-            <span class="icon-font">geo</span>
+            <span class="icon-font">home</span>
         </div>
     </div>
     <div id="slide_menu"></div>
@@ -140,19 +135,6 @@ function viewPoints(_label, _lat, _lng, _heading, _pitch, _range) {
 var viewPointsArray=[];
 viewPointsArray[0]=new viewPoints("地球",35.87501683, 135.8878458, 0, -89, 15000000);
 
-//視点メニュー作成
-
-var viewPointChangeMenu = document.getElementById('slide_menu');
-var dropDownList = "";
-
-for (var i=0; i<viewPointsArray.length; i++) {
-	dropDownList = dropDownList + '<li><a href="#" onclick = "changeViewPoint(' + i + ',' + '3.0);return false;">' + viewPointsArray[i].label + '</a></li>';
-}
-
-var viewPointChangeMenuHtml = '<ul class="viewpoint">' + dropDownList + '</li></ul>';
-viewPointChangeMenu.innerHTML = viewPointChangeMenuHtml;
-
-
 //CZML配列作成
 
 function czmlData(_label, _url) {
@@ -162,7 +144,44 @@ function czmlData(_label, _url) {
 
 var czmlDataArray=[];
 
-czmlDataArray[0]=new czmlData("satellite",'data/czml/satellite.czml');
+czmlDataArray[0]=new czmlData("satellite","data/czml/satellite.czml");
+
+//衛星配列作成
+
+function satelliteData(_label, _id) {
+	this.label = _label;
+	this.id = _id;
+}
+
+var satelliteArray=[];
+
+satelliteArray[0]=new satelliteData("CUTE-1","position01");
+satelliteArray[1]=new satelliteData("CUBESAT XI-IV","position02");
+satelliteArray[2]=new satelliteData("CUTE-1.7+APD II","position03");
+satelliteArray[3]=new satelliteData("SEEDS","position04");
+satelliteArray[4]=new satelliteData("PRISM (HITOMI)","position05");
+satelliteArray[5]=new satelliteData("STARS (KUKAI)","position06");
+satelliteArray[6]=new satelliteData("KKS-1 (KISEKI)","position07");
+satelliteArray[7]=new satelliteData("RISING 2","position08");
+satelliteArray[8]=new satelliteData("SPROUT","position09");
+satelliteArray[9]=new satelliteData("HODOYOSHI 4","position10");
+satelliteArray[10]=new satelliteData("HODOYOSHI 3","position11");
+satelliteArray[11]=new satelliteData("HODOYOSHI 1","position12");
+satelliteArray[12]=new satelliteData("QSAT-EOS","position13");
+satelliteArray[13]=new satelliteData("TSUBAME","position14");
+satelliteArray[14]=new satelliteData("Reset","reset");
+
+//衛星選択メニュー作成
+
+var satelliteSelectMenu = document.getElementById('slide_menu');
+var dropDownList = "";
+
+for (var i=0; i<satelliteArray.length; i++) {
+	dropDownList = dropDownList + '<li><a href="#" onclick = "satelliteSelect(\''  + satelliteArray[i].id +  '\');return false;">' + satelliteArray[i].label + '</a></li>';
+}
+
+var satelliteSelectMenuHtml = '<ul class="viewpoint">' + dropDownList + '</li></ul>';
+satelliteSelectMenu.innerHTML = satelliteSelectMenuHtml;
 
 //ビューア初期化	
 
@@ -217,10 +236,12 @@ setTimeout('loadCzml()',7000);
 
 //CZMLロード
 
+var czmlDataSource = new Cesium.CzmlDataSource();
+
 function loadCzml(){			
 	var i = 0;
 	var load = setInterval(function(){
-		var promise = Cesium.CzmlDataSource.load(czmlDataArray[i].url);
+		var promise = czmlDataSource.load(czmlDataArray[i].url);
 		promise.then(function(dataSource) {
 			viewer.dataSources.add(dataSource);
 		}).otherwise(function(error){
@@ -255,6 +276,20 @@ function timeSet(){
 	viewer.timeline.zoomTo(viewer.clock.startTime, viewer.clock.stopTime);
 }
 
+//衛星選択
+
+function satelliteSelect(id){
+    if (id != 'reset'){
+        var selectedSatellite = czmlDataSource.entities.getById(id);
+        viewer.selectedEntity = selectedSatellite;
+        viewer.trackedEntity = selectedSatellite;
+    } else {
+        viewer.selectedEntity = void 0;
+        viewer.trackedEntity = void 0;
+        changeViewPoint(0,2);
+    }
+}
+
 //視点移動
 
 function changeViewPoint(num, delay) {
@@ -279,6 +314,7 @@ function changeViewPoint(num, delay) {
 //ジオコード
 
 function geocode() {
+    satelliteSelect('reset');
 	var geocoder = new google.maps.Geocoder();
 	var input = document.getElementById('inputtext').value;
 	geocoder.geocode(
@@ -309,13 +345,9 @@ function geocode() {
 //現在地へ移動
 
 function flyToMyLocation() {
-	function fly(position) {
-		viewer.camera.flyTo({
-			destination : Cesium.Cartesian3.fromDegrees(position.coords.longitude, position.coords.latitude, 7500000),
-			easingFunction: Cesium.EasingFunction.CUBIC_IN_OUT
-		});
-	}
-	navigator.geolocation.getCurrentPosition(fly);
+    viewer.selectedEntity = void 0;
+    viewer.trackedEntity = void 0;
+	changeViewPoint(0,2);
 }
 
 //ヘルプ

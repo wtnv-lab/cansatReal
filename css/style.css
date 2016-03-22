@@ -8,6 +8,7 @@ html, body, #cesiumContainer {
 	font-family: "MS Pゴシック",sans-serif;
     color:#1ebc95;
 }
+
 .cesium-home-button {
 	visibility:hidden;
 }
@@ -147,7 +148,7 @@ h2 {
 }
 
 a {
-    color:black;
+    color:#1ebc95;
 	text-decoration:none;
 }
 
@@ -160,33 +161,27 @@ a:hover{
     position: fixed;
     top: 48px;
     left: -200px;
-    width: 80px;
-    opacity:0.8;
-    padding:0px 0px 20px 0px;
-    margin:0px;
-    margin-bottom:0px;
-    background:white;
-    text-align:center;
+    width: 100px;
+    opacity: 0.8;
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
+    margin-bottom: 0px;
+    background: black;
+    text-align: left;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
+    font-size: 10px;
 }
 
-#slide_menu2{
-    position: fixed;
-    top: 48px;
-    right: -200px;
-    width: 100px;
-    opacity:0.8;
-    padding:10px 10px 0px 10px;
-    margin:0px;
-    margin-bottom:0px;
-    background:white;
-    text-align:left;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-	z-index:10005;
+ul {
+    margin-left:-30px;
+    margin-bottom:-10px;
+}
+
+li {
+    list-style-type: none;
+    text-indent:0px;
 }
 
 .slide_label{
