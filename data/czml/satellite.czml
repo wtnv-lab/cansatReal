@@ -2603,8 +2603,8 @@
         "description": "Nihon University,2014",
         "billboard": {
             "horizontalOrigin": "CENTER",
-            "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-            "scale": 1,
+            "image": "../icon/09.png",
+            "scale": 0.4,
             "show": "true"
         },
         "position": {
