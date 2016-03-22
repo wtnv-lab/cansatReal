@@ -121,7 +121,7 @@ html, body, #cesiumContainer {
 .sharebutton {
     position: absolute;
     text-align: right;
-    bottom: 12px;
+    bottom: 40px;
     right: 8px;
     width: 130px;
     z-index: 2;
