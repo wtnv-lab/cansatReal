@@ -312,7 +312,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
@@ -636,7 +636,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
@@ -960,7 +960,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
@@ -1284,7 +1284,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
@@ -1608,7 +1608,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
@@ -1932,7 +1932,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
@@ -2256,7 +2256,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
@@ -2580,7 +2580,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
@@ -2904,7 +2904,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
@@ -3228,7 +3228,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
@@ -3552,7 +3552,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
@@ -3876,7 +3876,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
@@ -4200,7 +4200,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
@@ -4524,7 +4524,7 @@
         "path": {
             "width": 3,
             "leadTime": 0,
-            "trailTime": 6000,
+            "trailTime": 3600,
             "resolution": 80,
             "material": {
                 "solidColor": {
