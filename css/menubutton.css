@@ -36,6 +36,7 @@
 .general-button  {
   border-radius: 5px;
   background-color: #000;
+  opacity:0.8;
 }
 
 .general-button:before  {
