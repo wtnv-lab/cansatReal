@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="610" uniqueCount="219"><si><t>衛星詳細</t><rPh sb="0" eb="2"><t>エイセイ</t></rPh><rPh sb="2" eb="4"><t>ショウサイ</t></rPh><phoneticPr fontId="2"/></si><si><t>名称</t><rPh sb="0" eb="2"><t>メイショウ</t></rPh><phoneticPr fontId="2"/></si><si><t>団体</t><rPh sb="0" eb="2"><t>ダンタイ</t></rPh><phoneticPr fontId="2"/></si><si><t>質量</t><rPh sb="0" eb="2"><t>シツリョウ</t></rPh><phoneticPr fontId="2"/></si><si><t>打ち上げ機</t><rPh sb="0" eb="1"><t>ウ</t></rPh><rPh sb="2" eb="3"><t>ア</t></rPh><rPh sb="4" eb="5"><t>キ</t></rPh><phoneticPr fontId="2"/></si><si><t>射場</t><rPh sb="0" eb="2"><t>シャジョウ</t></rPh><phoneticPr fontId="2"/></si><si><t>主なミッション・特徴</t><rPh sb="0" eb="1"><t>オモ</t></rPh><rPh sb="8" eb="10"><t>トクチョウ</t></rPh><phoneticPr fontId="2"/></si><si><t>打ち上げ</t><rPh sb="0" eb="1"><t>ウ</t></rPh><rPh sb="2" eb="3"><t>ア</t></rPh><phoneticPr fontId="2"/></si><si><t>日付</t><rPh sb="0" eb="2"><t>ヒヅケ</t></rPh><phoneticPr fontId="2"/></si><si><t>状態</t><rPh sb="0" eb="2"><t>ジョウタイ</t></rPh><phoneticPr fontId="2"/></si><si><t>東京大学</t><rPh sb="0" eb="2"><t>トウキョウ</t></rPh><rPh sb="2" eb="4"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>運用終了</t><rPh sb="0" eb="2"><t>ウンヨウ</t></rPh><rPh sb="2" eb="4"><t>シュウリョウ</t></rPh><phoneticPr fontId="2"/></si><si><t>種子島</t><rPh sb="0" eb="3"><t>タネガシマ</t></rPh><phoneticPr fontId="2"/></si><si><t>XI-IV</t><phoneticPr fontId="2"/></si><si><t>後期運用中</t><rPh sb="0" eb="2"><t>コウキ</t></rPh><rPh sb="2" eb="5"><t>ウンヨウチュウ</t></rPh><phoneticPr fontId="2"/></si><si><t>ロコット+Breeze-KM</t><phoneticPr fontId="2"/></si><si><t>CUTE-I</t><phoneticPr fontId="2"/></si><si><t>東京工業大学</t><rPh sb="0" eb="2"><t>トウキョウ</t></rPh><rPh sb="2" eb="4"><t>コウギョウ</t></rPh><rPh sb="4" eb="6"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>後期定常運用フェイズ</t><rPh sb="0" eb="2"><t>コウキ</t></rPh><rPh sb="2" eb="4"><t>テイジョウ</t></rPh><rPh sb="4" eb="6"><t>ウンヨウ</t></rPh><phoneticPr fontId="2"/></si><si><t>衛星バス技術の実証と地球画像の取得</t><phoneticPr fontId="2"/></si><si><t>[通信ミッション]
+CW送信機によりCWテレメトリ(モールス信号)を送信，地上局で受信する．
+FM送信機によりFMテレメトリを２つの異なるプロトコル （Ax.25, SRLL(Simple Radio Link Layer protocol)）により地上局へ送信する．
+地上局からのコマンドにより，通信プロトコルを変更する．
+CWテレメトリ および FMテレメトリデータの公開
+[センシングミッション]
+各種センサにより，衛星の加速度，角速度，温度，姿勢を測定し，各データをメモリに保存，および地上へ送信する．
+[展開機構実証ミッション]
+軌道投入後，３本の通信アンテナおよび一枚の太陽電池パドルを展開する．</t><phoneticPr fontId="2"/></si><si><t>XI-V</t><phoneticPr fontId="2"/></si><si><t>Cosmos-3M</t><phoneticPr fontId="2"/></si><si><t>ミッション1:CIGS太陽電池セルなど，新規太陽電池の軌道上実証実験
+新型のCIGS（Cu(In,Ga)Se2)太陽電池セルを搭載し，軌道上での発電量をモニター．
+CIGSセルは放射線による劣化が少ないと考えられており，XI-Vで長期的にデータを取得することによって劣化の傾向を評価．
+その他XI-Vでは，次期衛星PRISMに搭載予定のGaAs太陽電池セルも搭載し，その性能を評価．
+ミッション2:地球の撮影
+より美しい地球画像を取得すべく，XI-IVで搭載したカメラ制御用ソフトウェアを変更し，XI-IVの倍のサイズの画像の取得や，最短0.2秒周期の連続撮影モード（衛星の姿勢運動推定用）などが可能．
+ミッション3:メッセージ送信
+XI-VではXI-IVの機能を拡張し，保存するメッセージを地上からのコマンドによって書き換える機能と，FMパケットとCW信号の両方でメッセージを送信する機能を実現．</t><phoneticPr fontId="2"/></si><si><t>Cute1.7+APD</t><phoneticPr fontId="2"/></si><si><t>1.PDAなどの民生品を用いて宇宙環境下での動作を保障した衛星バス機器の軌道上実証
+2.APD (Avalanche Photo Diode)を放射線検出器として初めて軌道上で実証（理学ミッション）．なおAPDは次世代X線天文衛星NeXTに搭載が予定されている．
+3.３軸姿勢決定と磁気トルカを用いた超小型衛星の姿勢制御実験の遂行．ジャイロセンサ，磁気センサ，太陽センサを用いて衛星の姿勢推定を行い，搭載磁気トルカを用いた姿勢制御実験
+4.将来の非デブリ化を目的とした衛星軌道離脱のための超小型テザー伸展機構の基礎的技術の軌道上実証を行う．今回はテザーを伸展させる機構部分のみの軌道上実証実験
+5.世界中のアマチュア地上局を複数用いた広範囲データ取得実験の遂行
+6.世界中のアマチュア無線家へのアマチュア無線サービスの提供．衛星を中継器として用いたデジタル・リピータ・サービスを予定している．
+7.超小型衛星用分離機構システムの軌道上実証</t><phoneticPr fontId="2"/></si><si><t>M-Vロケット</t><phoneticPr fontId="2"/></si><si><t>内之浦</t><rPh sb="0" eb="3"><t>ウチノウラ</t></rPh><phoneticPr fontId="2"/></si><si><t>SEEDS(FM1)</t><phoneticPr fontId="2"/></si><si><t>日本大学</t><rPh sb="0" eb="2"><t>ニホン</t></rPh><rPh sb="2" eb="4"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>ロケット失敗により軌道不到達</t><rPh sb="4" eb="6"><t>シッパイ</t></rPh><rPh sb="9" eb="11"><t>キドウ</t></rPh><rPh sb="11" eb="12"><t>フ</t></rPh><rPh sb="12" eb="14"><t>トウタツ</t></rPh><phoneticPr fontId="2"/></si><si><t>民生品を用いた衛星のバス技術実証
+デジトーカによるアマチュア無線サービス</t><phoneticPr fontId="2"/></si><si><t>ドニエプル</t><phoneticPr fontId="2"/></si><si><t>HIT-SAT</t><phoneticPr fontId="2"/></si><si><t>太陽指向制御実験
+熱設計の軌道上での評価
+衛星分離機構の機能確認
+衛星通信の基礎データ取得
+電源系の充放電サイクルに伴う軌道上での劣化評価</t><phoneticPr fontId="2"/></si><si><t>M-Vロケット7号機</t><rPh sb="8" eb="10"><t>ゴウキ</t></rPh><phoneticPr fontId="2"/></si><si><t>運用中</t><rPh sb="0" eb="3"><t>ウンヨウチュウ</t></rPh><phoneticPr fontId="2"/></si><si><t>PSLVロケット</t><phoneticPr fontId="2"/></si><si><t>SEEDS(FM2)</t><phoneticPr fontId="2"/></si><si><t>運用中(2010年2月現在)</t><rPh sb="0" eb="3"><t>ウンヨウチュウ</t></rPh><rPh sb="8" eb="9"><t>ネン</t></rPh><rPh sb="10" eb="11"><t>ガツ</t></rPh><rPh sb="11" eb="13"><t>ゲンザイ</t></rPh><phoneticPr fontId="2"/></si><si><t>民生品を用いた衛星のバス技術実証
+デジトーカ・SSTVによるアマチュア無線サービス
+マイクロフィルム搭載によるアウトリーチ</t><phoneticPr fontId="2"/></si><si><t>香川大学</t><rPh sb="0" eb="2"><t>カガワ</t></rPh><rPh sb="2" eb="4"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>短距離テザー伸展回収
+重力傾斜によるテザー伸展
+伸展回収時の子機ロボット制御
+伸展回収時の親機／子機搭載カメラ撮影
+伸展回収時の機体間通信</t><phoneticPr fontId="2"/></si><si><t>H-IIA-15</t><phoneticPr fontId="2"/></si><si><t>Cute1.7+APDII</t><phoneticPr fontId="2"/></si><si><t>輝汐(KKS-1)</t><rPh sb="0" eb="1"><t>キ</t></rPh><rPh sb="1" eb="2"><t>セキ</t></rPh><phoneticPr fontId="2"/></si><si><t>東京都立産業技術高等専門学校</t><rPh sb="0" eb="2"><t>トウキョウ</t></rPh><rPh sb="2" eb="4"><t>トリツ</t></rPh><rPh sb="4" eb="6"><t>サンギョウ</t></rPh><rPh sb="6" eb="8"><t>ギジュツ</t></rPh><rPh sb="8" eb="10"><t>コウトウ</t></rPh><rPh sb="10" eb="12"><t>センモン</t></rPh><rPh sb="12" eb="14"><t>ガッコウ</t></rPh><phoneticPr fontId="2"/></si><si><t>世界最年少クラスの衛星開発(15歳～22歳、専攻科生は21,22歳)
+超小型な宇宙空間移動装置（固体火薬をレーザで着火するマイクロスラスタ：世界初実証）
+超小型な宇宙空間回転装置（リアクションホイール搭載:超小型衛星ではまだ稀）
+CMOSカメラで地球を撮影（320×240pixelのカラー）
+応援者の文字メッセージを衛星に貼り付けて宇宙へ！宇宙タイムカプセル実施中！</t><phoneticPr fontId="2"/></si><si><t>ひとみ(PRISM)</t><phoneticPr fontId="2"/></si><si><t>柔らかい「伸展ブーム」を鏡筒に用いた望遠鏡による画像取得技術試験と実証
+民生品を利用した超小型衛星用要素の技術試験・実証
+アマチュア無線サービスの実施</t><phoneticPr fontId="2"/></si><si><t>雷神(SPRITE-SAT)</t><rPh sb="0" eb="2"><t>ライジン</t></rPh><phoneticPr fontId="2"/></si><si><t>東北大学</t><rPh sb="0" eb="2"><t>トウホク</t></rPh><rPh sb="2" eb="4"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>スプライト等の超高層大気発光現象を宇宙空間から真下に見下ろすように観測し、その水平構造および全球分布を明らかにする。
+雷／スプライト等と地上起因ガンマ線放射との関係を明らかにする。</t><phoneticPr fontId="2"/></si><si><t>しんえん(UNITEC-1)</t><phoneticPr fontId="2"/></si><si><t>大学宇宙工学コンソーシアム</t><rPh sb="0" eb="2"><t>ダイガク</t></rPh><rPh sb="2" eb="4"><t>ウチュウ</t></rPh><rPh sb="4" eb="6"><t>コウガク</t></rPh><phoneticPr fontId="2"/></si><si><t>深宇宙環境でのC&amp;DH生き残りコンペ
+深宇宙からの微弱電波受信の実験
+深宇宙での科学観測</t><phoneticPr fontId="2"/></si><si><t>H-IIA-17</t><phoneticPr fontId="2"/></si><si><t>早稲田大学</t><rPh sb="0" eb="3"><t>ワセダ</t></rPh><rPh sb="3" eb="5"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>ハヤト(KSAT)</t><phoneticPr fontId="2"/></si><si><t>鹿児島大学</t><rPh sb="0" eb="3"><t>カゴシマ</t></rPh><rPh sb="3" eb="5"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>人工衛星を使った大気水蒸気の独創的観測法
+宇宙からの動画撮影</t><phoneticPr fontId="2"/></si><si><t>創価大学</t><rPh sb="0" eb="2"><t>ソウカ</t></rPh><rPh sb="2" eb="4"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>子供の夢応援プロジェクト
+FPGAを使用した高信頼性情報処理システムで地球画像を伝送する</t><phoneticPr fontId="2"/></si><si><t>鳳龍弐号(HORYU-II)</t><rPh sb="0" eb="1"><t>オオトリ</t></rPh><rPh sb="1" eb="2"><t>リュウ</t></rPh><rPh sb="2" eb="3"><t>ニ</t></rPh><rPh sb="3" eb="4"><t>ゴウ</t></rPh><phoneticPr fontId="2"/></si><si><t>九州工業大学</t><rPh sb="0" eb="6"><t>キュウシュウコウギョウダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>H-IIA-21</t><phoneticPr fontId="2"/></si><si><t>PROITERES</t><phoneticPr fontId="2"/></si><si><t>大阪工業大学</t><rPh sb="0" eb="2"><t>オオサカ</t></rPh><rPh sb="2" eb="4"><t>コウギョウ</t></rPh><rPh sb="4" eb="6"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>PSLV-C21</t><phoneticPr fontId="2"/></si><si><t>プレセツク</t></si><si><t>バイコヌール</t></si><si><t>サティシュダワン</t></si><si><t>国</t><rPh sb="0" eb="1"><t>クニ</t></rPh><phoneticPr fontId="2"/></si><si><t>ロシア</t><phoneticPr fontId="2"/></si><si><t>日本</t><rPh sb="0" eb="2"><t>ニホン</t></rPh><phoneticPr fontId="2"/></si><si><t>インド</t><phoneticPr fontId="2"/></si><si><t>大学・高専の衛星実績</t><rPh sb="0" eb="2"><t>ダイガク</t></rPh><rPh sb="3" eb="5"><t>コウセン</t></rPh><rPh sb="6" eb="8"><t>エイセイ</t></rPh><rPh sb="8" eb="10"><t>ジッセキ</t></rPh><phoneticPr fontId="2"/></si><si><t>・電気推進ロケットエンジンによる超小型衛星では初の動力飛行
+・高解像度カメラによる淀川流域の環境観測</t><phoneticPr fontId="2"/></si><si><t>日本</t><rPh sb="0" eb="2"><t>ニホン</t></rPh><phoneticPr fontId="2"/></si><si><t>日付
+(打上/放出)</t><rPh sb="0" eb="2"><t>ヒヅケ</t></rPh><rPh sb="4" eb="6"><t>ウチアゲ</t></rPh><rPh sb="7" eb="9"><t>ホウシュツ</t></rPh><phoneticPr fontId="2"/></si><si><t>打上/放出機</t><rPh sb="0" eb="1"><t>ウ</t></rPh><rPh sb="1" eb="2"><t>ア</t></rPh><rPh sb="3" eb="5"><t>ホウシュツ</t></rPh><rPh sb="5" eb="6"><t>キ</t></rPh><phoneticPr fontId="2"/></si><si><t>打上：2012年7月21日
+放出：2012年10月5日</t><rPh sb="0" eb="2"><t>ウチアゲ</t></rPh><rPh sb="7" eb="8"><t>ネン</t></rPh><rPh sb="9" eb="10"><t>ガツ</t></rPh><rPh sb="12" eb="13"><t>ニチ</t></rPh><rPh sb="14" eb="16"><t>ホウシュツ</t></rPh><rPh sb="21" eb="22"><t>ネン</t></rPh><rPh sb="24" eb="25"><t>ガツ</t></rPh><rPh sb="26" eb="27"><t>カ</t></rPh><phoneticPr fontId="2"/></si><si><t>RAIKO</t><phoneticPr fontId="2"/></si><si><t>和歌山大学/東北大学</t><rPh sb="0" eb="3"><t>ワカヤマ</t></rPh><rPh sb="3" eb="5"><t>ダイガク</t></rPh><rPh sb="6" eb="8"><t>トウホク</t></rPh><rPh sb="8" eb="10"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>膜展開による軌道降下実験・魚眼カメラによる地球撮像等
+
+サクセスレベル等、衛星詳細その他：2Uサイズの衛星。今後の超小型衛星開発に必要な技術やノウハウの実証等を行います。</t><phoneticPr fontId="2"/></si><si><t>HTV3号機(H2B打上)
+放出：ISS「きぼう」</t><rPh sb="4" eb="6"><t>ゴウキ</t></rPh><rPh sb="10" eb="12"><t>ウチアゲ</t></rPh><rPh sb="14" eb="16"><t>ホウシュツ</t></rPh><phoneticPr fontId="2"/></si><si><t>WASEDA-SAT2</t><phoneticPr fontId="2"/></si><si><t>Negai☆”</t><phoneticPr fontId="2"/></si><si><t>北海道工業大学/
+北海道大学</t><rPh sb="0" eb="3"><t>ホッカイドウ</t></rPh><rPh sb="3" eb="5"><t>コウギョウ</t></rPh><rPh sb="5" eb="7"><t>ダイガク</t></rPh><rPh sb="9" eb="12"><t>ホッカイドウ</t></rPh><rPh sb="12" eb="14"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>KUKAI(STARS)</t><phoneticPr fontId="2"/></si><si><t>初期運用中
+(2012/10/11現在)</t><rPh sb="0" eb="2"><t>ショキ</t></rPh><rPh sb="2" eb="5"><t>ウンヨウチュウ</t></rPh><rPh sb="17" eb="19"><t>ゲンザイ</t></rPh><phoneticPr fontId="2"/></si><si><t>運用中
+(2012/2/26現在)</t><rPh sb="0" eb="3"><t>ウンヨウチュウ</t></rPh><rPh sb="14" eb="16"><t>ゲンザイ</t></rPh><phoneticPr fontId="2"/></si><si><t>Minimum Success
+☆システム工学教育プログラムの一環としてプログラム運用
+☆2011年冬季のH2A相乗りまでに検証済みの衛星の完成
+Full Success
+☆衛星バス技術の軌道上動作実証
+☆低軌道で放電することなく300Vで安定して発電する
+Advanced Success
+☆全ミッションの成功
+☆カメラ撮影画像を利用した地域貢献と人材育成プログラムの実施</t><phoneticPr fontId="2"/></si><si><t>運用中(2012/6/26現在)</t><rPh sb="0" eb="3"><t>ウンヨウチュウ</t></rPh><rPh sb="13" eb="15"><t>ゲンザイ</t></rPh><phoneticPr fontId="2"/></si><si><t>2010/6/24　運用終了</t><rPh sb="10" eb="12"><t>ウンヨウ</t></rPh><rPh sb="12" eb="14"><t>シュウリョウ</t></rPh><phoneticPr fontId="2"/></si><si><t>2010/7/10　運用終了</t><rPh sb="10" eb="12"><t>ウンヨウ</t></rPh><rPh sb="12" eb="14"><t>シュウリョウ</t></rPh><phoneticPr fontId="2"/></si><si><t>運用中
+(2010/12/14現在)</t><rPh sb="0" eb="3"><t>ウンヨウチュウ</t></rPh><rPh sb="15" eb="17"><t>ゲンザイ</t></rPh><phoneticPr fontId="2"/></si><si><t>CW受信成功、FM通信待機中(2012/9/20現在)</t><rPh sb="2" eb="4"><t>ジュシン</t></rPh><rPh sb="4" eb="6"><t>セイコウ</t></rPh><rPh sb="9" eb="11"><t>ツウシン</t></rPh><rPh sb="11" eb="14"><t>タイキチュウ</t></rPh><rPh sb="24" eb="26"><t>ゲンザイ</t></rPh><phoneticPr fontId="2"/></si><si><t>FITSAT-1(にわか衛星)</t><rPh sb="12" eb="14"><t>エイセイ</t></rPh><phoneticPr fontId="2"/></si><si><t>福岡工業大学</t></si><si><t>ISS「きぼう」</t></si><si><t>(1) 5.8GHz,115.2kbps高速画像転送
+(2) ＬＥＤによる可視光通信の実験
+サクセスレベル等
+(1) 衛星が無事放出される。
+(2) ビーコンが受信できる。
+　　スイッチが入りUHF(437MHz)アンテナが展開されたことを意味する。
+(3) 地上からのリモートコマンドを実行する。
+(4) 5.8GHzの信号を受信し、画像を再生する。
+(5) LED光を望遠鏡で受光し、電気信号を取り出す。
+(6) モールスコードで発光させ、夜空にメッセージを書く。</t><phoneticPr fontId="2"/></si><si><t>運用中
+(2012/10/10現在)</t><rPh sb="0" eb="3"><t>ウンヨウチュウ</t></rPh><rPh sb="15" eb="17"><t>ゲンザイ</t></rPh><phoneticPr fontId="2"/></si><si><t>STARS-II</t><phoneticPr fontId="2"/></si><si><t>香川大学</t><phoneticPr fontId="2"/></si><si><t>H-IIA-23</t><phoneticPr fontId="2"/></si><si><t>9kg</t><phoneticPr fontId="2"/></si><si><t>日本</t><phoneticPr fontId="2"/></si><si><t>Decayed</t><phoneticPr fontId="2"/></si><si><t xml:space="preserve">特徴 
+ 　 １．重力傾斜を利用したテザー伸展
+ 　 ２．EDTによる電流収集（ベアテザー）
+ 　 ３．重力傾斜によるテザー張力を利用したTSR制御
+ 　 ４．張力制御によるテザー伸展回収
+寸法・質量
+ 　 ・親機　１６０×１６０×２５０mm ・ ５Kg
+　 ・子機　１６０×１６０×１５０mm ・ ４Kg 
+ 通信周波数
+ 　　・親機　CW ４３７．２４５MHｚ　　FM downlinks ４３７．４０５MHz
+　　・子機　CW ４３７．２５５MHz　　FM downlinks ４３７．４２５MHz  </t><phoneticPr fontId="2"/></si><si><t>しんえん２</t><phoneticPr fontId="2"/></si><si><t>九州工業大学／鹿児島大学</t><rPh sb="0" eb="2"><t>キュウシュウ</t></rPh><rPh sb="2" eb="4"><t>コウギョウ</t></rPh><rPh sb="4" eb="6"><t>ダイガク</t></rPh><rPh sb="7" eb="10"><t>カゴシマ</t></rPh><rPh sb="10" eb="12"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>H-IIA 26号機</t><rPh sb="8" eb="10"><t>ゴウキ</t></rPh><phoneticPr fontId="2"/></si><si><t>17.8ｋｇ</t><phoneticPr fontId="2"/></si><si><t>運用中</t><rPh sb="0" eb="3"><t>ウンヨウチュウ</t></rPh><phoneticPr fontId="2"/></si><si><t>①熱可塑性CFRPによる宇宙機構造の開発とその宇宙技術実証
+　熱溶着可能な炭素繊維強化熱可塑樹脂（熱可塑性CFRP)を宇宙で実利用できることを実証する．
+②遠距離における地球―深宇宙機間の相互通信
+　430MHｚ送信機と145MHｚ受信機を搭載し，アマチュア無線帯を用いて，地球から月軌道周辺との通信，さらにはそれ以遠との通信技術を獲得する．
+③宇宙放射線の計測
+　CMOS型の放射線センサを用いて地球から月軌道周辺，さらにはそれ以遠の宇宙放射線種類を特定するための測定を行う．</t><phoneticPr fontId="2"/></si><si><t>QSAT-EOS(つくし)</t><phoneticPr fontId="2"/></si><si><t>九州大学</t><rPh sb="0" eb="2"><t>キュウシュウ</t></rPh><rPh sb="2" eb="4"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>H-IIA-23</t><phoneticPr fontId="2"/></si><si><t>KSAT2（愛称：ハヤトII)</t><rPh sb="6" eb="8"><t>アイショウ</t></rPh><phoneticPr fontId="2"/></si><si><t>鹿児島大学、NPO法人鹿児島人工衛星開発協議会</t><rPh sb="0" eb="3"><t>カゴシマ</t></rPh><rPh sb="3" eb="5"><t>ダイガク</t></rPh><rPh sb="9" eb="11"><t>ホウジン</t></rPh><rPh sb="11" eb="14"><t>カゴシマ</t></rPh><rPh sb="14" eb="16"><t>ジンコウ</t></rPh><rPh sb="16" eb="18"><t>エイセイ</t></rPh><rPh sb="18" eb="20"><t>カイハツ</t></rPh><rPh sb="20" eb="23"><t>キョウギカイ</t></rPh><phoneticPr fontId="2"/></si><si><t>1.68 kg</t><phoneticPr fontId="2"/></si><si><t>2014年5月18日大気圏再突入</t><rPh sb="4" eb="5"><t>ネン</t></rPh><rPh sb="6" eb="7"><t>ガツ</t></rPh><rPh sb="9" eb="10"><t>ニチ</t></rPh><rPh sb="10" eb="13"><t>タイキケン</t></rPh><rPh sb="13" eb="16"><t>サイトツニュウ</t></rPh><phoneticPr fontId="2"/></si><si><t>ミニマムサクセス（最低限ここまで）
+　0. 衛星からのビーコンを手掛かりに、衛星を連続追跡
+　1. 衛星に指令を送り、搭載されたメッセージを地球へ
+　2. 高度250kmまで衛星を追跡し、軌道の変化を解析
+フスサクセス（ここまで出来たら100%）
+　3. 衛星からの電波を使って大気水蒸気分布を観測
+　4. 搭載カメラで撮影した画像を動画で受信
+　5. パンタグラフ式ブームを宇宙で伸ばす
+アドバンスドサクセス（達成度150%）
+　6. 地上と衛星の信号を同期させる実験（日本版GPS基礎実験）
+　7. 自前の方式で衛星の軌道を高精度に決定</t><phoneticPr fontId="2"/></si><si><t>ARTSAT1: INVADER</t><phoneticPr fontId="2"/></si><si><t>多摩美術大学×東京大学</t><rPh sb="0" eb="6"><t>▽タマビジュツダイガク</t></rPh><rPh sb="7" eb="11"><t>▽トウキョウダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>H-IIA-23</t><phoneticPr fontId="2"/></si><si><t>1.8 kg</t><phoneticPr fontId="2"/></si><si><t>運用中</t><rPh sb="0" eb="3"><t>▽ウンヨウチュウ</t></rPh><phoneticPr fontId="2"/></si><si><t>1. 衛星データ(テレメトリ)の芸術利用
+2. 衛星データ活用のためのオープン・プラットフォーム「ARTSAT API」(http://api.artsat.jp)の設計と多摩美地上局上での実装
+3. 衛星をメディアとしたインタラクティブ作品の制作 
+    ・Arduino互換MissionOBC「Morikawa」搭載 
+    ・地上からのコマンドによる音声や音楽の生成 
+    ・ElizaベースのChatterbotによる衛星との会話 
+    ・INVADER VMの搭載による軌道上リプロの実現
+4. 芸術作品を通じたアウトリーチの展開 ・衛星芸術に関連した展覧会やイベントの開催
+Web (Basic Information): http://artsat.jp Facebook (Latest Information): http://www.facebook.com/artsat
+Twitter (Reception Report List): http://twitter.com/INVADER_ARTSAT GitHub (Morikawa and TamabiGS software): https://github.com/ARTSAT/</t><phoneticPr fontId="2"/></si><si><t>深宇宙彫刻「ARTSAT2:DESPATCH」</t><rPh sb="0" eb="1"><t>フカ</t></rPh><rPh sb="1" eb="3"><t>シンウチュウ</t></rPh><rPh sb="3" eb="5"><t>チョウコク</t></rPh><phoneticPr fontId="2"/></si><si><t>・深宇宙彫刻の実現 (3Dプリンタ造形物の宇宙機搭載実証)
+
+・宇宙生成詩の創作 (各種センサーデータから搭載プログラムが生成したテレメトリ送信)
+
+・ソーシャルネットワークを用いたテレメトリ共同受信 (協調ダイバシティ通信実験)
+
+http://despatch.artsat.jp
+http://artsat.jp</t><rPh sb="7" eb="9"><t>ジツゲン</t></rPh><phoneticPr fontId="2"/></si><si><t>2014年12月3日</t><rPh sb="4" eb="5"><t>ネン</t></rPh><rPh sb="7" eb="8"><t>ガツ</t></rPh><rPh sb="9" eb="10"><t>ニチ</t></rPh><phoneticPr fontId="2"/></si><si><t>33ｋｇ</t><phoneticPr fontId="2"/></si><si><t>運用終了</t><rPh sb="0" eb="4"><t>ウンヨウシュウリョウ</t></rPh><phoneticPr fontId="2"/></si><si><t>多摩美術大学×東京大学ARTSAT:衛星芸術プロジェクト</t><rPh sb="0" eb="6"><t>タマビジュツダイガク</t></rPh><rPh sb="7" eb="11"><t>トウキョウダイガク</t></rPh><rPh sb="18" eb="20"><t>エイセイ</t></rPh><rPh sb="20" eb="22"><t>ゲイジュツ</t></rPh><phoneticPr fontId="2"/></si><si><t>こすもず(OPUSAT)</t><phoneticPr fontId="2"/></si><si><t>・リチウムイオンキャパシタ(LIC)の耐宇宙環境性能の実証
+・太陽電池パドルの展開実証
+・磁気トルカによる姿勢制御技術の実証(太陽指向制御)</t><rPh sb="19" eb="20"><t>タイ</t></rPh><rPh sb="20" eb="22"><t>ウチュウ</t></rPh><rPh sb="22" eb="24"><t>カンキョウ</t></rPh><rPh sb="24" eb="26"><t>セイノウ</t></rPh><rPh sb="27" eb="29"><t>ジッショウ</t></rPh><rPh sb="31" eb="33"><t>タイヨウ</t></rPh><rPh sb="33" eb="35"><t>デンチ</t></rPh><rPh sb="39" eb="41"><t>テンカイ</t></rPh><rPh sb="41" eb="43"><t>ジッショウ</t></rPh><rPh sb="45" eb="47"><t>ジキ</t></rPh><rPh sb="53" eb="55"><t>シセイ</t></rPh><rPh sb="55" eb="57"><t>セイギョ</t></rPh><rPh sb="57" eb="59"><t>ギジュツ</t></rPh><rPh sb="60" eb="62"><t>ジッショウ</t></rPh><rPh sb="63" eb="65"><t>タイヨウ</t></rPh><rPh sb="65" eb="67"><t>シコウ</t></rPh><rPh sb="67" eb="69"><t>セイギョ</t></rPh><phoneticPr fontId="2"/></si><si><t>大阪府立大学</t><rPh sb="0" eb="2"><t>オオサカ</t></rPh><rPh sb="2" eb="4"><t>フリツ</t></rPh><rPh sb="4" eb="6"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>1.52kg</t><phoneticPr fontId="2"/></si><si><t>初期運用中
+(2014/3/24現在)</t><rPh sb="0" eb="2"><t>ショキ</t></rPh><rPh sb="2" eb="5"><t>ウンヨウチュウ</t></rPh><rPh sb="16" eb="18"><t>ゲンザイ</t></rPh><phoneticPr fontId="2"/></si><si><t>ITF-1</t><phoneticPr fontId="2"/></si><si><t>・結ネットワークの構築…アマチュア無線用の435MHz帯の電波を使って、衛星内部の温度や電源電圧などのデータをモールス符号に変換して送信する。結の信号受信という体験を共有することによる世界中の人々との相互ネットワーク構築する。
+・FRAMマイコンの動作実証…放射線に対して強いと考えられている、FRAMマイコンが宇宙空間で安定に使用できることを実証する。
+・超小型アンテナの動作実証…435MHｚ帯と145MHz帯向けの展開不要の超小型アンテナを衛星に搭載して、地球からの信号が受信可能であることを実証する。展開機構不要のアンテナが実現すれば、飛躍的に信頼性が向上すると同時に、展開機構のためのスペースが不要になるため、より高機能の超小型衛星を開発することが可能となる。</t><rPh sb="1" eb="2"><t>ユイ</t></rPh><rPh sb="9" eb="11"><t>コウチク</t></rPh><rPh sb="71" eb="72"><t>ユイ</t></rPh><rPh sb="73" eb="75"><t>シンゴウ</t></rPh><rPh sb="75" eb="77"><t>ジュシン</t></rPh><rPh sb="80" eb="82"><t>タイケン</t></rPh><rPh sb="83" eb="85"><t>キョウユウ</t></rPh><rPh sb="92" eb="94"><t>セカイ</t></rPh><rPh sb="94" eb="95"><t>ジュウ</t></rPh><rPh sb="96" eb="98"><t>ヒトビト</t></rPh><rPh sb="100" eb="102"><t>ソウゴ</t></rPh><rPh sb="108" eb="110"><t>コウチク</t></rPh><rPh sb="124" eb="126"><t>ドウサ</t></rPh><rPh sb="126" eb="128"><t>ジッショウ</t></rPh><rPh sb="179" eb="182"><t>チョウコガタ</t></rPh><rPh sb="187" eb="189"><t>ドウサ</t></rPh><rPh sb="189" eb="191"><t>ジッショウ</t></rPh><rPh sb="210" eb="212"><t>テンカイ</t></rPh><rPh sb="212" eb="214"><t>フヨウ</t></rPh><phoneticPr fontId="2"/></si><si><t>筑波大学ネットワーク衛星「結」プロジェクト</t><rPh sb="0" eb="2"><t>ツクバ</t></rPh><rPh sb="2" eb="4"><t>ダイガク</t></rPh><rPh sb="10" eb="12"><t>エイセイ</t></rPh><rPh sb="13" eb="14"><t>ユイ</t></rPh><phoneticPr fontId="2"/></si><si><t>1.2kg</t><phoneticPr fontId="2"/></si><si><t>TeikyoSat-3</t><phoneticPr fontId="2"/></si><si><t>【理学ミッション】
+宇宙空間における細胞性粘菌（キイロタマホコリカビ）の生育と生活環の観察
+
+【工学ミッション】
+宇宙空間において，1気圧に保持し微生物観察に適した温度環境（24度前後）に維持するモジュール容器の実証</t><rPh sb="1" eb="3"><t>リガク</t></rPh><rPh sb="10" eb="12"><t>ウチュウ</t></rPh><rPh sb="12" eb="14"><t>クウカン</t></rPh><rPh sb="18" eb="21"><t>サイボウセイ</t></rPh><rPh sb="21" eb="23"><t>ネンキン</t></rPh><rPh sb="36" eb="38"><t>セイイク</t></rPh><rPh sb="39" eb="42"><t>セイカツカン</t></rPh><rPh sb="43" eb="45"><t>カンサツ</t></rPh><rPh sb="48" eb="50"><t>コウガク</t></rPh><rPh sb="57" eb="59"><t>ウチュウ</t></rPh><rPh sb="59" eb="61"><t>クウカン</t></rPh><rPh sb="89" eb="90"><t>ド</t></rPh><rPh sb="90" eb="92"><t>ゼンゴ</t></rPh><phoneticPr fontId="2"/></si><si><t>帝京大学宇宙システム研究会</t><rPh sb="0" eb="2"><t>テイキョウ</t></rPh><rPh sb="2" eb="4"><t>ダイガク</t></rPh><rPh sb="4" eb="6"><t>ウチュウ</t></rPh><rPh sb="10" eb="13"><t>ケンキュウカイ</t></rPh><phoneticPr fontId="2"/></si><si><t>21.6kg</t><phoneticPr fontId="2"/></si><si><t>初期運用中
+（24-Mar-14現在）</t><rPh sb="0" eb="2"><t>ショキ</t></rPh><rPh sb="2" eb="5"><t>ウンヨウチュウ</t></rPh><rPh sb="16" eb="18"><t>ゲンザイ</t></rPh><phoneticPr fontId="2"/></si><si><t>TSUBAME</t><phoneticPr fontId="2"/></si><si><t>1. 挑戦的な先端ミッションの早期実証
+○ 超小型CMGによる高速姿勢変更技術の実証
+○ 超小型光学カメラによる高分解能撮像の実証
+
+2. 超小型衛星による宇宙科学分野での成果獲得
+○ X線偏光観測装置を用いたガンマ線バーストの観測
+
+3. 高機能小型衛星バスの開発技術の獲得
+○ 参画機関との技術協力関係の構築
+○ ポイントを押さえた信頼性確認方法の確立
+（高速姿勢変更＋高精度観測）用衛星バスシステムの提供</t><phoneticPr fontId="2"/></si><si><t>JAXA/ISAS 松永研究室</t><rPh sb="10" eb="12"><t>マツナガ</t></rPh><rPh sb="12" eb="15"><t>ケンキュウシツ</t></rPh><phoneticPr fontId="2"/></si><si><t>Dnepr</t><phoneticPr fontId="2"/></si><si><t>48.5 kg</t><phoneticPr fontId="2"/></si><si><t>ロシア</t><phoneticPr fontId="2"/></si><si><t>ほどよし１号</t><rPh sb="5" eb="6"><t>ゴウ</t></rPh><phoneticPr fontId="2"/></si><si><t>リアクションホイール、スターセンサ、MEMSジャイロ、GPS受信機などが搭載されており高度な3軸姿勢制御を行うほか、新規開発された過酸化水素水を推進剤とする推進装置による軌道制御の実証も行う。ミッション機器として、地上分解能6.7m、観測幅約28kmの画像を取得できる光学センサが搭載され、高度500kmの太陽同期軌道から地球を観測する。RGBとNIRの合計４波長でのプッシュブルーム撮像を行う。</t><rPh sb="101" eb="103"><t>キキ</t></rPh><rPh sb="177" eb="179"><t>ゴウケイ</t></rPh><rPh sb="180" eb="182"><t>ハチョウ</t></rPh><rPh sb="192" eb="194"><t>サツゾウ</t></rPh><rPh sb="195" eb="196"><t>オコナ</t></rPh><phoneticPr fontId="2"/></si><si><t>東京大学</t><rPh sb="0" eb="3"><t>トウキョウダイ</t></rPh><rPh sb="3" eb="4"><t>ガク</t></rPh><phoneticPr fontId="2"/></si><si><t>ドニエプル</t><phoneticPr fontId="2"/></si><si><t>60㎏</t><phoneticPr fontId="2"/></si><si><t>ヤスネ</t><phoneticPr fontId="2"/></si><si><t>Hodoyoshi-3　
+ほどよし３号</t><rPh sb="18" eb="19"><t>ゴウ</t></rPh><phoneticPr fontId="2"/></si><si><t>開発手法・バス・ほどよし開発機器の軌道上実証
+光学による地球観測（40ｍ、240ｍＧＳＤ）
+Ｓ＆Ｆ（地上のセンサからの電波を収集）
+レンタルスペース（10ｃｍ立方の空間をユーザーに自由に利用させるビジネス実験）</t><rPh sb="0" eb="2"><t>カイハツ</t></rPh><rPh sb="2" eb="4"><t>シュホウ</t></rPh><rPh sb="12" eb="14"><t>カイハツ</t></rPh><rPh sb="14" eb="16"><t>キキ</t></rPh><rPh sb="17" eb="20"><t>キドウジョウ</t></rPh><rPh sb="20" eb="22"><t>ジッショウ</t></rPh><rPh sb="23" eb="25"><t>コウガク</t></rPh><rPh sb="28" eb="30"><t>チキュウ</t></rPh><rPh sb="30" eb="32"><t>カンソク</t></rPh><rPh sb="50" eb="52"><t>チジョウ</t></rPh><rPh sb="59" eb="61"><t>デンパ</t></rPh><rPh sb="62" eb="64"><t>シュウシュウ</t></rPh><rPh sb="79" eb="81"><t>リッポウ</t></rPh><rPh sb="82" eb="84"><t>クウカン</t></rPh><rPh sb="90" eb="92"><t>ジユウ</t></rPh><rPh sb="93" eb="95"><t>リヨウ</t></rPh><rPh sb="102" eb="104"><t>ジッケン</t></rPh><phoneticPr fontId="2"/></si><si><t>2014年6月19日
+（日本時間20日）</t><rPh sb="4" eb="5"><t>ネン</t></rPh><rPh sb="6" eb="7"><t>ガツ</t></rPh><rPh sb="9" eb="10"><t>ニチ</t></rPh><rPh sb="12" eb="14"><t>ニホン</t></rPh><rPh sb="14" eb="16"><t>ジカン</t></rPh><rPh sb="18" eb="19"><t>ニチ</t></rPh><phoneticPr fontId="2"/></si><si><t>ＤＮＥＰＲ</t><phoneticPr fontId="2"/></si><si><t>60ｋｇ</t><phoneticPr fontId="2"/></si><si><t>Hodoyoshi-4　
+ほどよし４号</t><rPh sb="18" eb="19"><t>ゴウ</t></rPh><phoneticPr fontId="2"/></si><si><t>開発手法・バス・ほどよし開発機器の軌道上実証
+イオン推進機の軌道上実証
+100Ｍｓｐｓの高速Ｘバンド通信機の軌道上実証
+光学による地球観測（6ｍＧＳＤ）
+Ｓ＆Ｆ（地上のセンサからの電波を収集）
+レンタルスペース（10ｃｍ立方の空間をユーザーに自由に利用させるビジネス実験）</t><rPh sb="0" eb="2"><t>カイハツ</t></rPh><rPh sb="2" eb="4"><t>シュホウ</t></rPh><rPh sb="12" eb="14"><t>カイハツ</t></rPh><rPh sb="14" eb="16"><t>キキ</t></rPh><rPh sb="17" eb="20"><t>キドウジョウ</t></rPh><rPh sb="20" eb="22"><t>ジッショウ</t></rPh><rPh sb="26" eb="28"><t>スイシン</t></rPh><rPh sb="28" eb="29"><t>キ</t></rPh><rPh sb="30" eb="33"><t>キドウジョウ</t></rPh><rPh sb="33" eb="35"><t>ジッショウ</t></rPh><rPh sb="44" eb="46"><t>コウソク</t></rPh><rPh sb="50" eb="53"><t>ツウシンキ</t></rPh><rPh sb="54" eb="57"><t>キドウジョウ</t></rPh><rPh sb="57" eb="59"><t>ジッショウ</t></rPh><rPh sb="60" eb="62"><t>コウガク</t></rPh><rPh sb="65" eb="67"><t>チキュウ</t></rPh><rPh sb="67" eb="69"><t>カンソク</t></rPh><rPh sb="81" eb="83"><t>チジョウ</t></rPh><rPh sb="90" eb="92"><t>デンパ</t></rPh><rPh sb="93" eb="95"><t>シュウシュウ</t></rPh><rPh sb="110" eb="112"><t>リッポウ</t></rPh><rPh sb="113" eb="115"><t>クウカン</t></rPh><rPh sb="121" eb="123"><t>ジユウ</t></rPh><rPh sb="124" eb="126"><t>リヨウ</t></rPh><rPh sb="133" eb="135"><t>ジッケン</t></rPh><phoneticPr fontId="2"/></si><si><t>ＤＮＥＰＲ</t><phoneticPr fontId="2"/></si><si><t>66ｋｇ</t><phoneticPr fontId="2"/></si><si><t>雷神2 (RISING-2)</t><rPh sb="0" eb="2"><t>ライジン</t></rPh><phoneticPr fontId="2"/></si><si><t xml:space="preserve">①多波長望遠鏡による高解像度地球観測
+　口径10cm、焦点距離1m、解像度5mの超小型衛星搭載用望遠鏡を新規開発。
+　カラー画像に加え、液晶波長可変フィルタによる波長切替で、650-1050nmの任意の波長を観測。
+②近赤外ボロメータアレイセンサによる積乱雲の雲頂高度観測
+③高精度三軸姿勢制御による定地点連続撮像
+④積乱雲の高解像度ステレオ撮像
+⑤スプライトなどの高高度放電発光現象観測
+</t><phoneticPr fontId="2"/></si><si><t>東北大学・北海道大学</t><rPh sb="0" eb="2"><t>トウホク</t></rPh><rPh sb="2" eb="4"><t>ダイガク</t></rPh><rPh sb="5" eb="8"><t>ホッカイドウ</t></rPh><rPh sb="8" eb="10"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>H-IIA-24号機</t><rPh sb="8" eb="9"><t>ゴウ</t></rPh><rPh sb="9" eb="10"><t>キ</t></rPh><phoneticPr fontId="2"/></si><si><t>43kg</t><phoneticPr fontId="2"/></si><si><t>初期運用中
+(2014/6/24現在)</t><rPh sb="0" eb="2"><t>ショキ</t></rPh><rPh sb="2" eb="5"><t>ウンヨウチュウ</t></rPh><rPh sb="16" eb="18"><t>ゲンザイ</t></rPh><phoneticPr fontId="2"/></si><si><t>SPROUT</t><phoneticPr fontId="2"/></si><si><t>・複合膜面構造物展開の宇宙実証と設計手法の検証
+・数ｋｇ級衛星用姿勢決定・制御技術の実証
+・複合膜面構造物による軌道降下率変化の予測
+・アマチュア無線家によるカメラ撮影等の衛星利用</t><phoneticPr fontId="2"/></si><si><t>H-IIA-24</t><phoneticPr fontId="2"/></si><si><t>7.1kg</t><phoneticPr fontId="2"/></si><si><t>初期運用中
+（2014/6/17現在）</t><rPh sb="0" eb="2"><t>ショキ</t></rPh><rPh sb="2" eb="5"><t>ウンヨウチュウ</t></rPh><rPh sb="16" eb="18"><t>ゲンザイ</t></rPh><phoneticPr fontId="2"/></si><si><t>名称</t><rPh sb="0" eb="2"><t>メイショウ</t></rPh><phoneticPr fontId="10"/></si><si><t>UNIFORM-1</t><phoneticPr fontId="10"/></si><si><t>可視カメラおよび熱赤外カメラによる地球観測
+ほどよし衛星で培われた技術のスピンオフ衛星
+海外諸国に50kg級の衛星の製造・運用を教えるためのベース機として製造・運用を行っている</t><rPh sb="0" eb="2"><t>カシ</t></rPh><rPh sb="8" eb="9"><t>ネツ</t></rPh><rPh sb="9" eb="11"><t>セキガイ</t></rPh><rPh sb="17" eb="19"><t>チキュウ</t></rPh><rPh sb="19" eb="21"><t>カンソク</t></rPh><rPh sb="26" eb="28"><t>エイセイ</t></rPh><rPh sb="29" eb="30"><t>ツチカ</t></rPh><rPh sb="33" eb="35"><t>ギジュツ</t></rPh><rPh sb="41" eb="43"><t>エイセイ</t></rPh><rPh sb="44" eb="46"><t>カイガイ</t></rPh><rPh sb="46" eb="48"><t>ショコク</t></rPh><rPh sb="53" eb="54"><t>キュウ</t></rPh><rPh sb="55" eb="57"><t>エイセイ</t></rPh><rPh sb="58" eb="60"><t>セイゾウ</t></rPh><rPh sb="61" eb="63"><t>ウンヨウ</t></rPh><rPh sb="64" eb="65"><t>オシ</t></rPh><rPh sb="73" eb="74"><t>キ</t></rPh><rPh sb="77" eb="79"><t>セイゾウ</t></rPh><rPh sb="80" eb="82"><t>ウンヨウ</t></rPh><rPh sb="83" eb="84"><t>オコナ</t></rPh><phoneticPr fontId="10"/></si><si><t>日付</t><rPh sb="0" eb="2"><t>ヒヅケ</t></rPh><phoneticPr fontId="10"/></si><si><t>団体</t><rPh sb="0" eb="2"><t>ダンタイ</t></rPh><phoneticPr fontId="10"/></si><si><t>UNIFORMプロジェクト
+（代表：和歌山大学）</t><rPh sb="15" eb="17"><t>ダイヒョウ</t></rPh><rPh sb="18" eb="23"><t>ワカヤマダイガク</t></rPh><phoneticPr fontId="10"/></si><si><t>打ち上げ機</t><rPh sb="0" eb="1"><t>ウ</t></rPh><rPh sb="2" eb="3"><t>ア</t></rPh><rPh sb="4" eb="5"><t>キ</t></rPh><phoneticPr fontId="10"/></si><si><t>H-IIA 24号機</t><rPh sb="8" eb="10"><t>ゴウキ</t></rPh><phoneticPr fontId="10"/></si><si><t>質量</t><rPh sb="0" eb="2"><t>シツリョウ</t></rPh><phoneticPr fontId="10"/></si><si><t>50kg</t><phoneticPr fontId="10"/></si><si><t>国</t><rPh sb="0" eb="1"><t>クニ</t></rPh><phoneticPr fontId="10"/></si><si><t>日本</t><rPh sb="0" eb="2"><t>ニホン</t></rPh><phoneticPr fontId="10"/></si><si><t>状態</t><rPh sb="0" eb="2"><t>ジョウタイ</t></rPh><phoneticPr fontId="10"/></si><si><t>運用中</t><rPh sb="0" eb="3"><t>ウンヨウチュウ</t></rPh><phoneticPr fontId="10"/></si><si><t>射場</t><rPh sb="0" eb="2"><t>シャジョウ</t></rPh><phoneticPr fontId="10"/></si><si><t>種子島</t><rPh sb="0" eb="3"><t>タネガシマ</t></rPh><phoneticPr fontId="10"/></si><si><t>PROCYON</t><phoneticPr fontId="2"/></si><si><t>主なミッション・特徴など</t><rPh sb="0" eb="1"><t>オモ</t></rPh><rPh sb="8" eb="10"><t>トクチョウ</t></rPh><phoneticPr fontId="2"/></si><si><t>ORBIS</t><phoneticPr fontId="2"/></si><si><t>継続的な理学的挑戦を担う超小型衛星の実証機
+【工学ミッション】汎用型超小型衛星バスの実証
+【理学ミッション】バイナリブラックホールの探査と観測
+※平成29年度末FM完成予定</t><rPh sb="0" eb="3"><t>ケイゾクテキ</t></rPh><rPh sb="4" eb="6"><t>リガク</t></rPh><rPh sb="6" eb="7"><t>テキ</t></rPh><rPh sb="7" eb="9"><t>チョウセン</t></rPh><rPh sb="10" eb="11"><t>ニナ</t></rPh><rPh sb="12" eb="15"><t>チョウコガタ</t></rPh><rPh sb="15" eb="17"><t>エイセイ</t></rPh><rPh sb="18" eb="20"><t>ジッショウ</t></rPh><rPh sb="20" eb="21"><t>キ</t></rPh><rPh sb="23" eb="25"><t>コウガク</t></rPh><rPh sb="31" eb="34"><t>ハンヨウガタ</t></rPh><rPh sb="34" eb="37"><t>チョウコガタ</t></rPh><rPh sb="37" eb="39"><t>エイセイ</t></rPh><rPh sb="42" eb="44"><t>ジッショウ</t></rPh><rPh sb="46" eb="48"><t>リガク</t></rPh><rPh sb="66" eb="68"><t>タンサ</t></rPh><rPh sb="69" eb="71"><t>カンソク</t></rPh><rPh sb="73" eb="75"><t>ヘイセイ</t></rPh><rPh sb="77" eb="79"><t>ネンド</t></rPh><rPh sb="79" eb="80"><t>マツ</t></rPh><rPh sb="82" eb="84"><t>カンセイ</t></rPh><rPh sb="84" eb="86"><t>ヨテイ</t></rPh><phoneticPr fontId="2"/></si><si><t>未定（2018年度以降）</t><rPh sb="0" eb="2"><t>ミテイ</t></rPh><rPh sb="7" eb="9"><t>ネンド</t></rPh><rPh sb="9" eb="11"><t>イコウ</t></rPh><phoneticPr fontId="2"/></si><si><t>首都大学東京</t><rPh sb="0" eb="2"><t>シュト</t></rPh><rPh sb="2" eb="4"><t>ダイガク</t></rPh><rPh sb="4" eb="6"><t>トウキョウ</t></rPh><phoneticPr fontId="2"/></si><si><t>未定</t><rPh sb="0" eb="2"><t>ミテイ</t></rPh><phoneticPr fontId="2"/></si><si><t>50kg</t><phoneticPr fontId="2"/></si><si><t>開発中</t><rPh sb="0" eb="2"><t>カイハツ</t></rPh><rPh sb="2" eb="3"><t>ナカ</t></rPh><phoneticPr fontId="2"/></si><si><t>50kg</t><phoneticPr fontId="2"/></si><si><t>種子島宇宙センター</t></si><si><t>日本</t><rPh sb="0" eb="2"><t>ニホン</t></rPh><phoneticPr fontId="2"/></si><si><t>H-IIA 26号機</t><phoneticPr fontId="2"/></si><si><t>東京大学</t><rPh sb="0" eb="2"><t>トウキョウ</t></rPh><rPh sb="2" eb="4"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>約65kg</t><rPh sb="0" eb="1"><t>ヤク</t></rPh><phoneticPr fontId="2"/></si><si><t>S-CUBE</t><phoneticPr fontId="2"/></si><si><t>千葉工業大学／東北大学</t><rPh sb="0" eb="2"><t>チバ</t></rPh><rPh sb="2" eb="4"><t>コウギョウ</t></rPh><rPh sb="4" eb="6"><t>ダイガク</t></rPh><rPh sb="7" eb="9"><t>トウホク</t></rPh><rPh sb="9" eb="11"><t>ダイガク</t></rPh><phoneticPr fontId="2"/></si><si><t>4kg</t><phoneticPr fontId="2"/></si><si><t>打上：2015年8月19日
+放出：2015年10月17日</t><rPh sb="0" eb="2"><t>ウチアゲ</t></rPh><rPh sb="7" eb="8"><t>ネン</t></rPh><rPh sb="9" eb="10"><t>ガツ</t></rPh><rPh sb="12" eb="13"><t>ニチ</t></rPh><rPh sb="14" eb="16"><t>ホウシュツ</t></rPh><rPh sb="21" eb="22"><t>ネン</t></rPh><rPh sb="24" eb="25"><t>ガツ</t></rPh><rPh sb="27" eb="28"><t>カ</t></rPh><phoneticPr fontId="2"/></si><si><t>打上：H-IIB 5号機
+放出：HTV5「こうのとり」</t><rPh sb="0" eb="1"><t>ウ</t></rPh><rPh sb="1" eb="2"><t>ア</t></rPh><rPh sb="10" eb="12"><t>ゴウキ</t></rPh><rPh sb="13" eb="15"><t>ホウシュツ</t></rPh><phoneticPr fontId="2"/></si><si><t>種子島宇宙センター</t><phoneticPr fontId="2"/></si></sst>
