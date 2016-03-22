@@ -2927,8 +2927,8 @@
         "description": "The University of Tokyo,2014",
         "billboard": {
             "horizontalOrigin": "CENTER",
-            "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-            "scale": 1,
+            "image": "../icon/10.png",
+            "scale": 0.4,
             "show": "true"
         },
         "position": {
@@ -3251,8 +3251,8 @@
         "description": "The University of Tokyo,2014",
         "billboard": {
             "horizontalOrigin": "CENTER",
-            "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-            "scale": 1,
+            "image": "../icon/11.png",
+            "scale": 0.4,
             "show": "true"
         },
         "position": {
