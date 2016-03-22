@@ -35,7 +35,7 @@
 
 .general-button  {
   border-radius: 5px;
-  background-color: #303336;
+  background-color: #000;
 }
 
 .general-button:before  {
@@ -48,7 +48,7 @@
   border-radius: 0px 0px 5px 5px;
   padding: 2px 4.5px;
   box-shadow: 0px 0px 0px 0px rgba(12,12,13, 0);
-  color: #f8f8f8;
+  color: #1ebc95;
 }
 
 .button-text  {
@@ -209,7 +209,7 @@
 
 .touch .general-button:hover  {
 
-  background-color: #303336;
+  background-color: #222222;
 }
 
 .touch .general-button:hover:before  {

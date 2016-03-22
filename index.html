@@ -37,7 +37,7 @@
 <body>
     <div class="geocode">
         <form action="javascript:geocode()" class="textbox" />
-        <input id="inputtext" class="textbox" type="text" value="" placeholder="地名で検索" />
+        <input id="inputtext" class="textbox" type="text" value="" placeholder="Geocode" />
         </form>
     </div>
     <div id="blackOut">
@@ -301,7 +301,7 @@ function geocode() {
 					easingFunction: Cesium.EasingFunction.CUBIC_IN_OUT
 				});
 			} else {
-				alert('見つかりません');
+				alert('Not Found');
 			}
 		} 
 		);

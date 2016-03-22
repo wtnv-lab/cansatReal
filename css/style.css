@@ -5,7 +5,8 @@ html, body, #cesiumContainer {
 	padding: 0;
 	overflow: hidden;
 	position:relative;
-	font-family: "MS Pゴシック",sans-serif; 
+	font-family: "MS Pゴシック",sans-serif;
+    color:#1ebc95;
 }
 .cesium-home-button {
 	visibility:hidden;
@@ -232,10 +233,22 @@ input {
 	margin:2px 0px 0px 0px;
 	padding:0px;
 	width: 100px !important;
+    color:#1ebc95;
+    background:black;
+}
+
+input::-webkit-input-placeholder {
+    color:#1ebc95;
+}
+input:-ms-input-placeholder {
+    color:#1ebc95;
+}
+input::-moz-placeholder {
+    color:#1ebc95;
 }
 
 .geocode {
-	opacity:0.7;
+	opacity:0.8;
 	position:absolute;
 	top:18px;
 	left:55px;
