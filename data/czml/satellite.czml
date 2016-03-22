@@ -310,7 +310,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -634,7 +634,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -958,7 +958,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -1282,7 +1282,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -1606,7 +1606,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -1930,7 +1930,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -2254,7 +2254,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -2276,11 +2276,11 @@
         "id": "position08",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "RISING 2",
-        "description": "東北大,2014",
+        "description": "Tohoku University,2014",
         "billboard": {
             "horizontalOrigin": "CENTER",
-            "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-            "scale": 1,
+            "image": "../icon/08.png",
+            "scale": 0.4,
             "show": "true"
         },
         "position": {
@@ -2578,7 +2578,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -2902,7 +2902,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -3226,7 +3226,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -3550,7 +3550,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -3874,7 +3874,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -4198,7 +4198,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -4522,7 +4522,7 @@
             ]
         },
         "path": {
-            "width": 3,
+            "width": 2,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
