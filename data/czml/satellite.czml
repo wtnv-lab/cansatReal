@@ -1628,11 +1628,11 @@
         "id": "position06",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "STARS (KUKAI)",
-        "description": "香川大,2009",
+        "description": "Kagawa University,2009",
         "billboard": {
             "horizontalOrigin": "CENTER",
-            "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-            "scale": 1,
+            "image": "../icon/06.png",
+            "scale": 0.7,
             "show": "true"
         },
         "position": {
@@ -1952,11 +1952,11 @@
         "id": "position07",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "KKS-1 (KISEKI)",
-        "description": "産業技術高専,2009",
+        "description": "Tokyo Metropolitan College of Industrial Technology,2009",
         "billboard": {
             "horizontalOrigin": "CENTER",
-            "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-            "scale": 1,
+            "image": "../icon/07.png",
+            "scale": 0.4,
             "show": "true"
         },
         "position": {
