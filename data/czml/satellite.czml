@@ -1307,8 +1307,8 @@
         "description": "The University of Tokyo,2009",
         "billboard": {
             "horizontalOrigin": "CENTER",
-            "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-            "scale": 1,
+            "image": "../icon/05.png",
+            "scale": 0.5,
             "show": "true"
         },
         "position": {
