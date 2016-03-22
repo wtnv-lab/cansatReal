@@ -8,11 +8,11 @@
         "id": "position01",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "CUTE-1",
-        "description": "東工大,2003",
+        "description": "Tokyo Institute of Technology,2003",
         "billboard": {
             "horizontalOrigin": "CENTER",
-            "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-            "scale": 1,
+            "image": "../icon/01.png",
+            "scale": 0.5,
             "show": "true"
         },
         "position": {
@@ -332,11 +332,11 @@
         "id": "position02",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "CUBESAT XI-IV",
-        "description": "東大,2003",
+        "description": "The University of Tokyo,2003",
         "billboard": {
             "horizontalOrigin": "CENTER",
-            "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-            "scale": 1,
+            "image": "../icon/02.png",
+            "scale": 0.35,
             "show": "true"
         },
         "position": {
@@ -656,11 +656,11 @@
         "id": "position03",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "CUTE-1.7+APD II",
-        "description": "東工大,2008",
+        "description": "Tokyo Institute of Technology,2008",
         "billboard": {
             "horizontalOrigin": "CENTER",
-            "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-            "scale": 1,
+            "image": "../icon/03.png",
+            "scale": 0.4,
             "show": "true"
         },
         "position": {
@@ -980,11 +980,11 @@
         "id": "position04",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "SEEDS",
-        "description": "日大,2008",
+        "description": "Nihon University,2008",
         "billboard": {
             "horizontalOrigin": "CENTER",
-            "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-            "scale": 1,
+            "image": "../icon/04.png",
+            "scale": 0.4,
             "show": "true"
         },
         "position": {
@@ -1304,7 +1304,7 @@
         "id": "position05",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "PRISM (HITOMI)",
-        "description": "東大,2009",
+        "description": "The University of Tokyo,2009",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
@@ -2600,7 +2600,7 @@
         "id": "position09",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "SPROUT",
-        "description": "日大,2014",
+        "description": "Nihon University,2014",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
@@ -2924,7 +2924,7 @@
         "id": "position10",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "HODOYOSHI 4",
-        "description": "東大,2014",
+        "description": "The University of Tokyo,2014",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
@@ -3248,7 +3248,7 @@
         "id": "position11",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "HODOYOSHI 3",
-        "description": "東大,2014",
+        "description": "The University of Tokyo,2014",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
@@ -3572,7 +3572,7 @@
         "id": "position12",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "HODOYOSHI 1",
-        "description": "東大,2014",
+        "description": "The University of Tokyo,2014",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
@@ -4220,7 +4220,7 @@
         "id": "position14",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "TSUBAME",
-        "description": "東工大,2014",
+        "description": "Tokyo Institute of Technology,2014",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
