@@ -91,18 +91,26 @@ var getDevice = (function(){
 	}
 })();
 
-var screenWidth = window.parent.screen.width;
+if (mobile == 1) {
+	$(function() {
+		$('.sharebutton').hide();
+	});				
+}
+
+var screenWidth = window.innerWidth;
+var screenHeight = window.innerHeight;
 if (screenWidth <= 640) {
 	smallScreen = 1;
 } else {
 	smallScreen = 0;
 }
 
-if (mobile == 1) {
-	$(function() {
-		$('.sharebutton').hide();
-	});				
-}
+console.log(screenWidth,screenHeight);
+
+$(function() {
+    $('#cesiumContainer').width(screenWidth);
+    $('#cesiumContainer').height(screenHeight);
+});
 
 //スワイプによるスクロール禁止
 
