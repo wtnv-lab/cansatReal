@@ -106,10 +106,13 @@ function resizeWindow(){
         var screenWidth = window.innerWidth;
         var screenHeight = window.innerHeight;
         $(function() {
-            //$('html').height(screenHeight);
+            $('html').height(screenHeight);
             $('body').height(screenHeight);
             $('#cesiumContainer').height(screenHeight);
-            $('#blackOut').height(screenHeight);            
+            $('#blackOut').height(screenHeight);
+            $(window).on('touchmove.noScroll', function(e) {
+                e.preventDefault();
+            });          
         });
     }
     setTimeout('loadCesium()',100);
