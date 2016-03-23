@@ -8,7 +8,7 @@
         "id": "position01",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "CUTE-1",
-        "description": "<p class=\"univAndYear\">東京工業大学 2003<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/01.png\"><\/p><p class=\"description\">[通信ミッション]<br \/>CW送信機によりCWテレメトリを送信，地上局で受信する．<br \/>FM送信機によりFMテレメトリを２つの異なるプロトコルにより地上局へ送信する．<br \/>地上局からのコマンドにより，通信プロトコルを変更する．<br \/>CWテレメトリ および FMテレメトリデータの公開<\/p><p class=\"description\">[センシングミッション]<br \/>各種センサにより，衛星の加速度，角速度，温度，姿勢を測定し，各データをメモリに保存，および地上へ送信する．<\/p><p class=\"description\">[展開機構実証ミッション]<br \/>軌道投入後，３本の通信アンテナおよび一枚の太陽電池パドルを展開する．<\/p>",
+        "description": "<p class=\"univAndYear\">東京工業大学 2003<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" src=\".\/data\/icon\/01.png\"><\/p><p class=\"description\">[通信ミッション]<br \/>CW送信機によりCWテレメトリを送信，地上局で受信する．<br \/>FM送信機によりFMテレメトリを２つの異なるプロトコルにより地上局へ送信する．<br \/>地上局からのコマンドにより，通信プロトコルを変更する．<br \/>CWテレメトリ および FMテレメトリデータの公開<\/p><p class=\"description\">[センシングミッション]<br \/>各種センサにより，衛星の加速度，角速度，温度，姿勢を測定し，各データをメモリに保存，および地上へ送信する．<\/p><p class=\"description\">[展開機構実証ミッション]<br \/>軌道投入後，３本の通信アンテナおよび一枚の太陽電池パドルを展開する．<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/01.png",
@@ -332,7 +332,7 @@
         "id": "position02",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "CUBESAT XI-IV",
-        "description": "<p class=\"univAndYear\">東京大学 2003<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/02.png\"><\/p><p class=\"description\">衛星バス技術の実証と地球画像の取得<\/p>",
+        "description": "<p class=\"univAndYear\">東京大学 2003<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" src=\".\/data\/icon\/02.png\"><\/p><p class=\"description\">衛星バス技術の実証と地球画像の取得<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/02.png",
@@ -656,7 +656,7 @@
         "id": "position03",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "CUTE-1.7+APD II",
-        "description": "<p class=\"univAndYear\">東京工業大学 2008<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/03.png\"><\/p><p class=\"description\">1.PDAなどの民生品を用いて宇宙環境下での動作を保障した衛星バス機器の軌道上実証<\/p><p class=\"description\">2.APD (Avalanche Photo Diode)を放射線検出器として初めて軌道上で実証（理学ミッション）．なおAPDは次世代X線天文衛星NeXTに搭載が予定されている<\/p><p class=\"description\">3.３軸姿勢決定と磁気トルカを用いた超小型衛星の姿勢制御実験の遂行．ジャイロセンサ，磁気センサ，太陽センサを用いて衛星の姿勢推定を行い，搭載磁気トルカを用いた姿勢制御実験<\/p><p class=\"description\">4.将来の非デブリ化を目的とした衛星軌道離脱のための超小型テザー伸展機構の基礎的技術の軌道上実証を行う．今回はテザーを伸展させる機構部分のみの軌道上実証実験<\/p><p class=\"description\">5.世界中のアマチュア地上局を複数用いた広範囲データ取得実験の遂行<\/p><p class=\"description\">6.世界中のアマチュア無線家へのアマチュア無線サービスの提供．衛星を中継器として用いたデジタル・リピータ・サービスを予定している<\/p><p class=\"description\">7.超小型衛星用分離機構システムの軌道上実証<\/p>",
+        "description": "<p class=\"univAndYear\">東京工業大学 2008<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" src=\".\/data\/icon\/03.png\"><\/p><p class=\"description\">1.PDAなどの民生品を用いて宇宙環境下での動作を保障した衛星バス機器の軌道上実証<\/p><p class=\"description\">2.APD (Avalanche Photo Diode)を放射線検出器として初めて軌道上で実証（理学ミッション）．なおAPDは次世代X線天文衛星NeXTに搭載が予定されている<\/p><p class=\"description\">3.３軸姿勢決定と磁気トルカを用いた超小型衛星の姿勢制御実験の遂行．ジャイロセンサ，磁気センサ，太陽センサを用いて衛星の姿勢推定を行い，搭載磁気トルカを用いた姿勢制御実験<\/p><p class=\"description\">4.将来の非デブリ化を目的とした衛星軌道離脱のための超小型テザー伸展機構の基礎的技術の軌道上実証を行う．今回はテザーを伸展させる機構部分のみの軌道上実証実験<\/p><p class=\"description\">5.世界中のアマチュア地上局を複数用いた広範囲データ取得実験の遂行<\/p><p class=\"description\">6.世界中のアマチュア無線家へのアマチュア無線サービスの提供．衛星を中継器として用いたデジタル・リピータ・サービスを予定している<\/p><p class=\"description\">7.超小型衛星用分離機構システムの軌道上実証<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/03.png",
@@ -980,7 +980,7 @@
         "id": "position04",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "SEEDS",
-        "description": "<p class=\"univAndYear\">日本大学 2008<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/04.png\"><\/p><p class=\"description\">民生品を用いた衛星のバス技術実証<br  \/>デジトーカによるアマチュア無線サービス<\/p>",
+        "description": "<p class=\"univAndYear\">日本大学 2008<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" src=\".\/data\/icon\/04.png\"><\/p><p class=\"description\">民生品を用いた衛星のバス技術実証<br  \/>デジトーカによるアマチュア無線サービス<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/04.png",
@@ -1304,7 +1304,7 @@
         "id": "position05",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "PRISM (HITOMI)",
-        "description": "<p class=\"univAndYear\">東京大学 2009<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/05.png\"><\/p><p class=\"description\">柔らかい「伸展ブーム」を鏡筒に用いた望遠鏡による画像取得技術試験と実証<br  \/>民生品を利用した超小型衛星用要素の技術試験・実証<br  \/>アマチュア無線サービスの実施<\/p>",
+        "description": "<p class=\"univAndYear\">東京大学 2009<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" src=\".\/data\/icon\/05.png\"><\/p><p class=\"description\">柔らかい「伸展ブーム」を鏡筒に用いた望遠鏡による画像取得技術試験と実証<br  \/>民生品を利用した超小型衛星用要素の技術試験・実証<br  \/>アマチュア無線サービスの実施<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/05.png",
@@ -1628,7 +1628,7 @@
         "id": "position06",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "STARS (KUKAI)",
-        "description": "<p class=\"univAndYear\">香川大学 2009<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/06.png\"><\/p><p class=\"description\">短距離テザー伸展回収<br  \/>重力傾斜によるテザー伸展<br  \/>伸展回収時の子機ロボット制御<br  \/>伸展回収時の親機／子機搭載カメラ撮影<br  \/>伸展回収時の機体間通信<\/p>",
+        "description": "<p class=\"univAndYear\">香川大学 2009<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" src=\".\/data\/icon\/06.png\"><\/p><p class=\"description\">短距離テザー伸展回収<br  \/>重力傾斜によるテザー伸展<br  \/>伸展回収時の子機ロボット制御<br  \/>伸展回収時の親機／子機搭載カメラ撮影<br  \/>伸展回収時の機体間通信<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/06.png",
@@ -1952,7 +1952,7 @@
         "id": "position07",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "KKS-1 (KISEKI)",
-        "description": "<p class=\"univAndYear\">東京都立産業技術高等専門学校 2009<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/07.png\"><\/p><p class=\"description\">世界最年少クラスの衛星開発(15歳～22歳、専攻科生は21,22歳)<br  \/>超小型な宇宙空間移動装置（固体火薬をレーザで着火するマイクロスラスタ：世界初実証）<br  \/>超小型な宇宙空間回転装置（リアクションホイール搭載:超小型衛星ではまだ稀）<br  \/>CMOSカメラで地球を撮影（320×240pixelのカラー）<br  \/>応援者の文字メッセージを衛星に貼り付けて宇宙へ！宇宙タイムカプセル実施中！<\/p>",
+        "description": "<p class=\"univAndYear\">東京都立産業技術高等専門学校 2009<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" src=\".\/data\/icon\/07.png\"><\/p><p class=\"description\">世界最年少クラスの衛星開発(15歳～22歳、専攻科生は21,22歳)<br  \/>超小型な宇宙空間移動装置（固体火薬をレーザで着火するマイクロスラスタ：世界初実証）<br  \/>超小型な宇宙空間回転装置（リアクションホイール搭載:超小型衛星ではまだ稀）<br  \/>CMOSカメラで地球を撮影（320×240pixelのカラー）<br  \/>応援者の文字メッセージを衛星に貼り付けて宇宙へ！宇宙タイムカプセル実施中！<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/07.png",
@@ -2276,7 +2276,7 @@
         "id": "position08",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "RISING 2",
-        "description": "<p class=\"univAndYear\">東北大学 2014<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/08.png\"><\/p><p class=\"description\">1.多波長望遠鏡による高解像度地球観測<br  \/>口径10cm、焦点距離1m、解像度5mの超小型衛星搭載用望遠鏡を新規開発。カラー画像に加え、液晶波長可変フィルタによる波長切替で、650-1050nmの任意の波長を観測。<br  \/>2.近赤外ボロメータアレイセンサによる積乱雲の雲頂高度観測<br  \/>3.高精度三軸姿勢制御による定地点連続撮像<br  \/>4.積乱雲の高解像度ステレオ撮像<br  \/>5.スプライトなどの高高度放電発光現象観測<\/p>",
+        "description": "<p class=\"univAndYear\">東北大学 2014<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" src=\".\/data\/icon\/08.png\"><\/p><p class=\"description\">1.多波長望遠鏡による高解像度地球観測<br  \/>口径10cm、焦点距離1m、解像度5mの超小型衛星搭載用望遠鏡を新規開発。カラー画像に加え、液晶波長可変フィルタによる波長切替で、650-1050nmの任意の波長を観測。<br  \/>2.近赤外ボロメータアレイセンサによる積乱雲の雲頂高度観測<br  \/>3.高精度三軸姿勢制御による定地点連続撮像<br  \/>4.積乱雲の高解像度ステレオ撮像<br  \/>5.スプライトなどの高高度放電発光現象観測<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/08.png",
@@ -2600,7 +2600,7 @@
         "id": "position09",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "SPROUT",
-        "description": "<p class=\"univAndYear\">日本大学 2014<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/09.png\"><\/p><p class=\"description\">複合膜面構造物展開の宇宙実証と設計手法の検証<br  \/>数kg級衛星用姿勢決定・制御技術の実証<br  \/>複合膜面構造物による軌道降下率変化の予測<br  \/>アマチュア無線家によるカメラ撮影等の衛星利用<\/p>",
+        "description": "<p class=\"univAndYear\">日本大学 2014<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" src=\".\/data\/icon\/09.png\"><\/p><p class=\"description\">複合膜面構造物展開の宇宙実証と設計手法の検証<br  \/>数kg級衛星用姿勢決定・制御技術の実証<br  \/>複合膜面構造物による軌道降下率変化の予測<br  \/>アマチュア無線家によるカメラ撮影等の衛星利用<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/09.png",
@@ -2924,7 +2924,7 @@
         "id": "position10",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "HODOYOSHI 4",
-        "description": "<p class=\"univAndYear\">東京大学 2014<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/10.png\"><\/p><p class=\"description\">開発手法・バス・ほどよし開発機器の軌道上実証<br  \/>イオン推進機の軌道上実証<br  \/>100Mspsの高速Ｘバンド通信機の軌道上実証<br  \/>光学による地球観測（6mGSD）<br  \/>S&F（地上のセンサからの電波を収集）<br  \/>レンタルスペース（10cm立方の空間をユーザーに自由に利用させるビジネス実験）<\/p>",
+        "description": "<p class=\"univAndYear\">東京大学 2014<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" src=\".\/data\/icon\/10.png\"><\/p><p class=\"description\">開発手法・バス・ほどよし開発機器の軌道上実証<br  \/>イオン推進機の軌道上実証<br  \/>100Mspsの高速Ｘバンド通信機の軌道上実証<br  \/>光学による地球観測（6mGSD）<br  \/>S&F（地上のセンサからの電波を収集）<br  \/>レンタルスペース（10cm立方の空間をユーザーに自由に利用させるビジネス実験）<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/10.png",
@@ -3248,7 +3248,7 @@
         "id": "position11",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "HODOYOSHI 3",
-        "description": "<p class=\"univAndYear\">東京大学 2014<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/11.png\"><\/p><p class=\"description\">開発手法・バス・ほどよし開発機器の軌道上実証<br  \/>光学による地球観測（40m、240mGSD）<br  \/>S&F（地上のセンサからの電波を収集）<br  \/>レンタルスペース（10cm立方の空間をユーザーに自由に利用させるビジネス実験）<\/p>",
+        "description": "<p class=\"univAndYear\">東京大学 2014<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" src=\".\/data\/icon\/11.png\"><\/p><p class=\"description\">開発手法・バス・ほどよし開発機器の軌道上実証<br  \/>光学による地球観測（40m、240mGSD）<br  \/>S&F（地上のセンサからの電波を収集）<br  \/>レンタルスペース（10cm立方の空間をユーザーに自由に利用させるビジネス実験）<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/11.png",
@@ -3572,7 +3572,7 @@
         "id": "position12",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "HODOYOSHI 1",
-        "description": "<p class=\"univAndYear\">東京大学 2014<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/12.png\"><\/p><p class=\"description\">リアクションホイール、スターセンサ、MEMSジャイロ、GPS受信機などが搭載されており高度な3軸姿勢制御を行うほか、新規開発された過酸化水素水を推進剤とする推進装置による軌道制御の実証も行う。ミッション機器として、地上分解能6.7m、観測幅約28kmの画像を取得できる光学センサが搭載され、高度500kmの太陽同期軌道から地球を観測する。RGBとNIRの合計４波長でのプッシュブルーム撮像を行う。<\/p>",
+        "description": "<p class=\"univAndYear\">東京大学 2014<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" src=\".\/data\/icon\/12.png\"><\/p><p class=\"description\">リアクションホイール、スターセンサ、MEMSジャイロ、GPS受信機などが搭載されており高度な3軸姿勢制御を行うほか、新規開発された過酸化水素水を推進剤とする推進装置による軌道制御の実証も行う。ミッション機器として、地上分解能6.7m、観測幅約28kmの画像を取得できる光学センサが搭載され、高度500kmの太陽同期軌道から地球を観測する。RGBとNIRの合計４波長でのプッシュブルーム撮像を行う。<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/12.png",
@@ -3896,7 +3896,7 @@
         "id": "position13",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "QSAT-EOS",
-        "description": "<p class=\"univAndYear\">九州大学 2014<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/13.png\"><\/p>",
+        "description": "<p class=\"univAndYear\">九州大学 2014<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" src=\".\/data\/icon\/13.png\"><\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/13.png",
@@ -4220,7 +4220,7 @@
         "id": "position14",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
         "name": "TSUBAME",
-        "description": "<p class=\"univAndYear\">東京工業大学 2014<\/p><p class=\"satPhoto\"><img src=\".\/data\/icon\/14.png\"><\/p><p class=\"description\">1.挑戦的な先端ミッションの早期実証<br  \/>　超小型CMGによる高速姿勢変更技術の実証<br  \/>　超小型光学カメラによる高分解能撮像の実証<\/p><p class=\"description\">2.超小型衛星による宇宙科学分野での成果獲得<br  \/>　X線偏光観測装置を用いたガンマ線バーストの観測<\/p><p class=\"description\">3.高機能小型衛星バスの開発技術の獲得<br  \/>　参画機関との技術協力関係の構築<br  \/>　ポイントを押さえた信頼性確認方法の確立<br  \/>　（高速姿勢変更＋高精度観測）用衛星バスシステムの提供<\/p>",
+        "description": "<p class=\"univAndYear\">東京工業大学 2014<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" height=\"100px\" width=\"100px\" src=\".\/data\/icon\/14.png\"><\/p><p class=\"description\">1.挑戦的な先端ミッションの早期実証<br  \/>　超小型CMGによる高速姿勢変更技術の実証<br  \/>　超小型光学カメラによる高分解能撮像の実証<\/p><p class=\"description\">2.超小型衛星による宇宙科学分野での成果獲得<br  \/>　X線偏光観測装置を用いたガンマ線バーストの観測<\/p><p class=\"description\">3.高機能小型衛星バスの開発技術の獲得<br  \/>　参画機関との技術協力関係の構築<br  \/>　ポイントを押さえた信頼性確認方法の確立<br  \/>　（高速姿勢変更＋高精度観測）用衛星バスシステムの提供<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../icon/14.png",
