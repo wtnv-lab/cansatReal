@@ -81,8 +81,10 @@
         
 var screenWidth;
 var screenHeight;
+
+setTimeout('resizeWindow()',500);
      
-window.onload = function(){
+function resizeWindow(){
     var screenWidth = window.innerWidth;
     var screenHeight = window.innerHeight;
     $(function() {
