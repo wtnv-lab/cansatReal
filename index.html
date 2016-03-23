@@ -82,7 +82,7 @@
 var screenWidth;
 var screenHeight;
 
-setTimeout('resizeWindow()',500);
+setTimeout('resizeWindow()',100);
      
 function resizeWindow(){
     var screenWidth = window.innerWidth;
@@ -91,7 +91,7 @@ function resizeWindow(){
         $('#cesiumContainer').height(screenHeight);
         $('#blackOut').height(screenHeight);
     });
-    setTimeout('loadCesium()',1000);
+    setTimeout('loadCesium()',100);
 }
 
 var mobile = 0;
