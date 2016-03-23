@@ -7,6 +7,7 @@ html, body, #cesiumContainer {
 	position:relative;
 	font-family: "MS Pゴシック",sans-serif;
     color:#1ebc95;
+    background-color:black;
 }
 
 .cesium-home-button {
