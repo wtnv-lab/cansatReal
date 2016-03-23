@@ -104,7 +104,15 @@ function screenSize(){
     $(function() {
         $('#cesiumContainer').width(screenWidth);
         $('#cesiumContainer').height(screenHeight);
+        $('#blackOut').width(screenWidth);
+        $('#blackOut').height(screenHeight);
     });
+    setTimeout(function(){
+        $('#cesiumContainer').width('100%');
+        $('#cesiumContainer').height('100%');
+        $('#blackOut').width('100%');
+        $('#blackOut').height('100%');
+    }, 1000);
 }
 
 //スワイプによるスクロール禁止
