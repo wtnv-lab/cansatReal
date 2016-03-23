@@ -81,7 +81,7 @@
         
 var screenWidth;
 var screenHeight;
-        
+/*        
 window.onload = function(){
     var screenWidth = window.innerWidth;
     var screenHeight = window.innerHeight;
@@ -92,7 +92,7 @@ window.onload = function(){
         $('#blackOut').height(screenHeight);
     });
 }
-
+*/
 var mobile = 0;
 
 var getDevice = (function(){
@@ -110,17 +110,6 @@ if (mobile == 1) {
 	$(function() {
 		$('.sharebutton').hide();
 	});				
-}
-
-function screenSize(){
-    screenWidth = window.innerWidth;
-    screenHeight = window.innerHeight;
-    $(function() {
-        //$('#cesiumContainer').width(screenWidth);
-        $('#cesiumContainer').height(screenHeight);
-        //$('#blackOut').width(screenWidth);
-        $('#blackOut').height(screenHeight);
-    });
 }
 
 //スワイプによるスクロール禁止
