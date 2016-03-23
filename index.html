@@ -92,8 +92,6 @@ var getDevice = (function(){
 	}
 })();
 
-
-
 if (mobile != 1) {
     setTimeout('resizeWindow()',0);
 } else {
@@ -108,6 +106,7 @@ function resizeWindow(){
         var screenWidth = window.innerWidth;
         var screenHeight = window.innerHeight;
         $(function() {
+            $("html").height(screenHeight);
             $('#cesiumContainer').height(screenHeight);
             $('#blackOut').height(screenHeight);
         });
