@@ -98,8 +98,6 @@ if (mobile == 1) {
 	});				
 }
 
-setTimeout('screenSize()',200);
-
 function screenSize(){
     screenWidth = window.innerWidth;
     screenHeight = window.innerHeight;
@@ -201,6 +199,8 @@ var viewer = new Cesium.Viewer('cesiumContainer',{
 	baseLayerPicker:false,
 	scene3DOnly : true
 });
+
+screenSize();
 
 //地形メッシュを設定
 cesiumTerrainProviderMeshes = new Cesium.CesiumTerrainProvider({
