@@ -78,10 +78,22 @@
     </div>
     <script>
         //端末種別と画面サイズ
-
-var mobile = 0;
+        
 var screenWidth;
 var screenHeight;
+        
+window.onload = function(){
+    var screenWidth = window.innerWidth;
+    var screenHeight = window.innerHeight;
+    $(function() {
+        //$('#cesiumContainer').width(screenWidth);
+        $('#cesiumContainer').height(screenHeight);
+        //$('#blackOut').width(screenWidth);
+        $('#blackOut').height(screenHeight);
+    });
+}
+
+var mobile = 0;
 
 var getDevice = (function(){
 	var ua = navigator.userAgent;
@@ -203,11 +215,6 @@ var viewer = new Cesium.Viewer('cesiumContainer',{
 	baseLayerPicker:false,
 	scene3DOnly : true
 });
-
-
-if (mobile!=0){
-    setTimeout('screenSize()',100);
-}
 
 //地形メッシュを設定
 cesiumTerrainProviderMeshes = new Cesium.CesiumTerrainProvider({
