@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="description" content="大学・高等専門学校の学生たちによる手作り人工衛星（超小型衛星）のデジタルアーカイブです。UNISEC（大学宇宙工学コンソーシアム）×首都大学東京 渡邉英徳研究室" />
     <meta property="og:image" content="http://satellite.archiving.jp/data/screen.png" />
-    <meta property="og:description" content="大学・高等専門学校の学生たちによる手作り人工衛星（超小型衛星）のデジタルアーカイブです。UNISEC（大学宇宙工学コンソーシアム）×首都大学東京 渡邉英徳研究室" />
+    <meta property="og:description" content="大学・高等専門学校の学生たちによる手作り人工衛星（超小型衛星）のデジタルアーカイブです。UNISEC（大学宇宙工学コンソーシアム）×首都大学東京 渡邉英徳研究室"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <title>UNISEC Earth｜手作り人工衛星デジタルアーカイブ</title>
 
@@ -30,7 +31,6 @@
 
         ga('create', 'UA-55397811-12', 'auto');
         ga('send', 'pageview');
-
     </script>
 </head>
 
@@ -79,21 +79,6 @@
     <script>
         //端末種別と画面サイズ
         
-var screenWidth;
-var screenHeight;
-
-setTimeout('resizeWindow()',1000);
-     
-function resizeWindow(){
-    var screenWidth = window.innerWidth;
-    var screenHeight = window.innerHeight;
-    $(function() {
-        $('#cesiumContainer').height(screenHeight);
-        $('#blackOut').height(screenHeight);
-    });
-    setTimeout('loadCesium()',100);
-}
-
 var mobile = 0;
 
 var getDevice = (function(){
@@ -107,10 +92,27 @@ var getDevice = (function(){
 	}
 })();
 
-if (mobile == 1) {
+
+
+if (mobile != 1) {
+    setTimeout('resizeWindow()',0);
+} else {
 	$(function() {
 		$('.sharebutton').hide();
-	});				
+	});
+    setTimeout('resizeWindow()',1000);		
+}
+     
+function resizeWindow(){
+    if (mobile != 0){
+        var screenWidth = window.innerWidth;
+        var screenHeight = window.innerHeight;
+        $(function() {
+            $('#cesiumContainer').height(screenHeight);
+            $('#blackOut').height(screenHeight);
+        });
+    }
+    setTimeout('loadCesium()',100);
 }
 
 //スワイプによるスクロール禁止
