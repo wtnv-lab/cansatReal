@@ -78,7 +78,8 @@
         //端末種別と画面サイズ
 
 var mobile = 0;
-var smallScreen = 0;
+var screenWidth;
+var screenHeight;
 
 var getDevice = (function(){
 	var ua = navigator.userAgent;
@@ -97,20 +98,16 @@ if (mobile == 1) {
 	});				
 }
 
-var screenWidth = window.innerWidth;
-var screenHeight = window.innerHeight;
-if (screenWidth <= 640) {
-	smallScreen = 1;
-} else {
-	smallScreen = 0;
+setTimeout('screenSize()',100);
+
+function screenSize(){
+    screenWidth = window.innerWidth;
+    screenHeight = window.innerHeight;
+    $(function() {
+        $('#cesiumContainer').width(screenWidth);
+        $('#cesiumContainer').height(screenHeight);
+    });
 }
-
-console.log(screenWidth,screenHeight);
-
-$(function() {
-    $('#cesiumContainer').width(screenWidth);
-    $('#cesiumContainer').height(screenHeight);
-});
 
 //スワイプによるスクロール禁止
 
