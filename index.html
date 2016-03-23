@@ -107,12 +107,6 @@ function screenSize(){
         $('#blackOut').width(screenWidth);
         $('#blackOut').height(screenHeight);
     });
-    setTimeout(function(){
-        $('#cesiumContainer').width('100%');
-        $('#cesiumContainer').height('100%');
-        $('#blackOut').width('100%');
-        $('#blackOut').height('100%');
-    }, 3000);
 }
 
 //スワイプによるスクロール禁止
@@ -208,7 +202,9 @@ var viewer = new Cesium.Viewer('cesiumContainer',{
 	scene3DOnly : true
 });
 
-setTimeout('screenSize()',500);
+if (mobile!=0){
+    setTimeout('screenSize()',500);
+}
 
 //地形メッシュを設定
 cesiumTerrainProviderMeshes = new Cesium.CesiumTerrainProvider({
