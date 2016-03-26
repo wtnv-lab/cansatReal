@@ -61,6 +61,7 @@
     </div>
     <div id="slide_menu"></div>
     <div id="slide_menu2"></div>
+    <div class="link" onclick="move2cansat();"><p>CANSAT</p></div>
     <div class="sharebutton">
         <ul class="share-buttons">
             <li>
@@ -363,6 +364,12 @@ function flyToMyLocation() {
     viewer.selectedEntity = void 0;
     viewer.trackedEntity = void 0;
 	changeViewPoint(0,2);
+}
+
+//Cansatへ
+
+function move2cansat(){
+	document.location = "http://cansat.unisec.info/";
 }
 
 //ヘルプ
