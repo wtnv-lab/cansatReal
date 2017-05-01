@@ -16639,7 +16639,7 @@
     {
         "id": "position15",
         "availablity": "2016-03-01T00:00:00Z/2016-03-01T23:55:00Z",
-        "name": "TSUBAME",
+        "name": "UWE-3",
         "description": "<p class=\"univAndYear\">ヴュルツブルク大学（University of Wuerzburg，ドイツ）2013<\/p><p class=\"satPhoto\"><img height=\"100px\" width=\"100px\" height=\"100px\" width=\"100px\" src=\".\/data\/icon\/15.png\"><\/p><p class=\"description\">1.姿勢決定・制御系の実証<\/p><p class=\"description\">2.汎用バスアーキテクチャの実証<\/p>",
         "billboard": {
             "horizontalOrigin": "CENTER",
