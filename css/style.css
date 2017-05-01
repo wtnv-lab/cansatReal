@@ -165,7 +165,7 @@ a:hover{
 #slide_menu{
     position: fixed;
     top: 48px;
-    left: -200px;
+    left: 8px;
     width: 100px;
     opacity: 0.8;
     padding: 0px 0px 20px 0px;
@@ -177,6 +177,7 @@ a:hover{
     -webkit-border-radius: 3px;
     border-radius: 3px;
     font-size: 10px;
+	display:none;
 }
 
 ul {

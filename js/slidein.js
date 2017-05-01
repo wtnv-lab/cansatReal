@@ -6,10 +6,12 @@ var menu = $('#slide_menu'),
 		
 	menuBtn.on('click', function(){
 	body.toggleClass('open');
-		if(body.hasClass('open')){
-			menu.animate({'left' : 8 }, 120);
-		} else {
+	if (body.hasClass('open')) {
 			menu.animate({'left' : -140 }, 120);
+			//menu.animate({'left' : 8 }, 120);
+	} else {
+			menu.animate({'left' : 8 }, 120);
+			//menu.animate({'left' : -140 }, 120);
 		}		     
 	});
 });    
