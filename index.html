@@ -309,27 +309,27 @@
         function satelliteSelect(id) {
             if (id != 'reset') {
                 viewer.clock.shouldAnimate = false;
-                var selectedSatellite = czmlDataSource.entities.getById(id);
-                var currentTime = viewer.clock.currentTime;
-                var estimateTime = new Cesium.JulianDate();
-                estimateTime = Cesium.JulianDate.addSeconds(currentTime,45,estimateTime);
-                var entityPos = selectedSatellite.position.getValue(estimateTime);
-                viewer.selectedEntity = selectedSatellite;
                 setTimeout(function () {
+                    var selectedSatellite = czmlDataSource.entities.getById(id);
+                    var currentTime = viewer.clock.currentTime;
+                    var estimateTime = new Cesium.JulianDate();
+                    estimateTime = Cesium.JulianDate.addSeconds(currentTime, 45, estimateTime);
+                    var entityPos = selectedSatellite.position.getValue(estimateTime);
+                    viewer.selectedEntity = selectedSatellite;
                     var newHeading = Cesium.Math.toRadians(0);
                     var newPitch = Cesium.Math.toRadians(-45);
                     var boundingSphere = new Cesium.BoundingSphere(entityPos, 1000);
-                    var headingPitchRange = new Cesium.HeadingPitchRange(newHeading, newPitch, 10000);
+                    var headingPitchRange = new Cesium.HeadingPitchRange(newHeading, newPitch, 500000);
                     viewer.camera.flyToBoundingSphere(boundingSphere, {
                         duration: 2,
                         offset: headingPitchRange,
-                        easingFunction: Cesium.EasingFunction.CUBIC_IN_OUT
+                        easingFunction: Cesium.EasingFunction.SINUSOIDAL_IN_OUT
                     });
                     setTimeout(function () {
                         viewer.clock.shouldAnimate = true;
                     }, 1500);
                     viewer.trackedEntity = selectedSatellite;
-                }, 500);
+                }, 50);
             } else {
                 viewer.selectedEntity = void 0;
                 viewer.trackedEntity = void 0;
