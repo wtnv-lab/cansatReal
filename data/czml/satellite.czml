@@ -1177,7 +1177,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -2366,7 +2366,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -3555,7 +3555,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -4744,7 +4744,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -5933,7 +5933,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -7122,7 +7122,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -8311,7 +8311,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -9500,7 +9500,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -10689,7 +10689,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -11878,7 +11878,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -13067,7 +13067,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -14256,7 +14256,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -15445,7 +15445,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -16634,7 +16634,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 20,
             "material": {
                 "polylineGlow": {
                     "color": {
@@ -17823,7 +17823,7 @@
             "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
-            "resolution": 80,
+            "resolution": 30,
             "material": {
                 "polylineGlow": {
                     "color": {
