@@ -1174,7 +1174,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -2363,7 +2363,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -3552,7 +3552,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -4741,7 +4741,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -5930,7 +5930,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -7119,7 +7119,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -8308,7 +8308,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -9497,7 +9497,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -10686,7 +10686,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -11875,7 +11875,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -13064,7 +13064,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -14253,7 +14253,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -15442,7 +15442,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -16631,7 +16631,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
@@ -17820,7 +17820,7 @@
             ]
         },
         "path": {
-            "width": 4,
+            "width": 6,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
