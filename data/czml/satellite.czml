@@ -1180,7 +1180,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -2368,7 +2369,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -3556,7 +3558,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -4744,7 +4747,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -5932,7 +5936,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -7120,7 +7125,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -8308,7 +8314,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -9496,7 +9503,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -10684,7 +10692,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -11872,7 +11881,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -13060,7 +13070,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -14248,7 +14259,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -15436,7 +15448,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -16624,7 +16637,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
@@ -17812,7 +17826,8 @@
             "resolution": 80,
             "material": {
                 "polylineGlow": {
-                    "color": {"glowPower":0.75,
+                    "color": {
+                        "glowPower": 0.75,
                         "rgba": [
                             0,
                             0,
