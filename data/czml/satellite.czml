@@ -1174,18 +1174,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -2362,18 +2362,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -3550,18 +3550,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -4738,18 +4738,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -5926,18 +5926,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -7114,18 +7114,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -8302,18 +8302,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -9490,18 +9490,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -10678,18 +10678,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -11866,18 +11866,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -13054,18 +13054,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -14242,18 +14242,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -15430,18 +15430,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -16618,18 +16618,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
@@ -17806,18 +17806,18 @@
             ]
         },
         "path": {
-            "width": 2,
+            "width": 4,
             "leadTime": 0,
             "trailTime": 3600,
             "resolution": 80,
             "material": {
-                "solidColor": {
-                    "color": {
+                "polylineGlow": {
+                    "color": {"glowPower":0.75,
                         "rgba": [
                             0,
                             0,
                             255,
-                            150
+                            72
                         ]
                     }
                 }
