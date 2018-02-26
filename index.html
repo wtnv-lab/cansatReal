@@ -220,7 +220,9 @@
                 sceneModePicker: false,
                 baseLayerPicker: false,
                 scene3DOnly: true,
-                terrainExaggeration: 10.0
+                terrainExaggeration: 10.0,
+				requestRenderMode: true,
+				maximumRenderTimeChange: 2
             });
 
             //地形メッシュを設定
@@ -298,6 +300,7 @@
             viewer.clock.clockRange = clock.clockRange;
             viewer.clock.multiplier = 10 * 10;
             viewer.timeline.zoomTo(viewer.clock.startTime, viewer.clock.stopTime);
+            viewer.clock.shouldAnimate = true;
         }
 
         //衛星選択
