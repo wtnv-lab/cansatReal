@@ -6,14 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="description" content="大学・高等専門学校の学生たちによる手作り人工衛星（超小型衛星）のデジタルアーカイブです。UNISEC（大学宇宙工学コンソーシアム）×首都大学東京 渡邉英徳研究室" />
     <meta property="og:image" content="http://satellite.unisec.info/data/screen.png" />
-    <meta property="og:description" content="大学・高等専門学校の学生たちによる手作り人工衛星（超小型衛星）のデジタルアーカイブです。UNISEC（大学宇宙工学コンソーシアム）×首都大学東京 渡邉英徳研究室"
-    />
+    <meta property="og:description" content="大学・高等専門学校の学生たちによる手作り人工衛星（超小型衛星）のデジタルアーカイブです。UNISEC（大学宇宙工学コンソーシアム）×首都大学東京 渡邉英徳研究室" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@UNISEC_office" />
     <meta name="twitter:creator" content="@hwtnv" />
     <meta name="twitter:title" content="UNISEC Earth｜手作り人工衛星デジタルアーカイブ" />
-    <meta name="twitter:description" content="大学・高等専門学校の学生たちによる手作り人工衛星（超小型衛星）のデジタルアーカイブです。UNISEC（大学宇宙工学コンソーシアム）×首都大学東京 渡邉英徳研究室"
-    />
+    <meta name="twitter:description" content="大学・高等専門学校の学生たちによる手作り人工衛星（超小型衛星）のデジタルアーカイブです。UNISEC（大学宇宙工学コンソーシアム）×首都大学東京 渡邉英徳研究室" />
     <meta name="twitter:image" content="http://satellite.unisec.info/data/screen.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <title>UNISEC Earth｜手作り人工衛星デジタルアーカイブ</title>
@@ -73,15 +71,19 @@
     <div class="sharebutton">
         <ul class="share-buttons">
             <li>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsatellite.unisec.info%2F&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://satellite.unisec.info/'); return false;"><img class="share" src="./data/flat_web_icon_set/color/Facebook.png"></a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsatellite.unisec.info%2F&t=" target="_blank"
+                    onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://satellite.unisec.info/'); return false;"><img
+                        class="share" src="./data/flat_web_icon_set/color/Facebook.png"></a>
             </li>
             <li>
                 <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fsatellite.unisec.info%2F&text=:%20http%3A%2F%2Fsatellite.unisec.info%2F&via=hwtnv"
-                    target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ' http://satellite.unisec.info/'); return false;"><img class="share" src="./data/flat_web_icon_set/color/Twitter.png"></a>
+                    target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ' http://satellite.unisec.info/'); return false;"><img
+                        class="share" src="./data/flat_web_icon_set/color/Twitter.png"></a>
             </li>
             <li>
                 <a href="https://plus.google.com/share?url=http%3A%2F%2Fsatellite.unisec.info%2F" target="_blank" title="Share on Google+"
-                    onclick="window.open('https://plus.google.com/share?url=http://satellite.unisec.info/'); return false;"><img class="share" src="./data/flat_web_icon_set/color/Google+.png"></a>
+                    onclick="window.open('https://plus.google.com/share?url=http://satellite.unisec.info/'); return false;"><img
+                        class="share" src="./data/flat_web_icon_set/color/Google+.png"></a>
             </li>
         </ul>
     </div>
@@ -221,15 +223,15 @@
                 baseLayerPicker: false,
                 scene3DOnly: true,
                 terrainExaggeration: 10.0,
-				requestRenderMode: true,
-				maximumRenderTimeChange: 2
+                requestRenderMode: true,
+                maximumRenderTimeChange: 2
             });
 
             //地形メッシュを設定
-            cesiumTerrainProviderMeshes = new Cesium.CesiumTerrainProvider({
-                url: '//assets.agi.com/stk-terrain/world',
-                requestWaterMask: true,
-                requestVertexNormals: true
+            cesiumTerrainProviderMeshes = new Cesium.createWorldTerrain({
+                requestWaterMask: false,
+                requestVertexNormals: false,
+                heightmapTerrainQuality: 0.5
             });
             viewer.terrainProvider = cesiumTerrainProviderMeshes;
 
